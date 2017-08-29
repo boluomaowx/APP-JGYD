@@ -1,0 +1,200 @@
+﻿$axure.loadCurrentPage({
+  "url":"支付成功.html",
+  "generationDate":new Date(1503973161711.06),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"d49939547d124a9a8dc6a65e28515622",
+    "type":"Axure:Page",
+    "name":"支付成功",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"abc3dfd8e23b48458e1678ac1c92565a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"64afebd7080a4308b3cfc2eeb56d6221",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/支付成功/u0.png"}},
+{
+          "id":"fb8925aadcb44b6199aaea97b506263a",
+          "label":"返回办理页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":10,
+              "y":298},
+            "size":{
+              "width":350,
+              "height":52},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"005d39bf6efc40fcb4d950c7ad7b722b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":10,
+                  "y":298},
+                "size":{
+                  "width":350,
+                  "height":52},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 六年免检办理及预约",
+                      "target":{
+                        "targetType":"page",
+                        "url":"六年免检办理及预约.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a2b3d631c4e14bc99b397d57d3a0eb74",
+          "label":"返回办理页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":10,
+              "y":0},
+            "size":{
+              "width":80,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"77fdf5008fc54d1182054c15d2b8ad7d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":10,
+                  "y":0},
+                "size":{
+                  "width":80,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "abc3dfd8e23b48458e1678ac1c92565a":{
+      "scriptId":"u0"},
+    "64afebd7080a4308b3cfc2eeb56d6221":{
+      "scriptId":"u1"},
+    "fb8925aadcb44b6199aaea97b506263a":{
+      "scriptId":"u2"},
+    "005d39bf6efc40fcb4d950c7ad7b722b":{
+      "scriptId":"u3"},
+    "a2b3d631c4e14bc99b397d57d3a0eb74":{
+      "scriptId":"u4"},
+    "77fdf5008fc54d1182054c15d2b8ad7d":{
+      "scriptId":"u5"}}});

@@ -1,0 +1,254 @@
+﻿$axure.loadCurrentPage({
+  "url":"满分学习的副本.html",
+  "generationDate":new Date(1503973159629.94),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"c5902eb4a2954e4885619d70ff51e2ca",
+    "type":"Axure:Page",
+    "name":"满分学习的副本",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"275555073b37440981f35dd194fd030f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"522cbc3b1ba146889e0a6b0d3eca9414",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/满分学习的副本/u0.jpg"}},
+{
+          "id":"9a33f7a2d91d48099303eb42994b9f00",
+          "label":"模拟考试1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-10,
+              "y":50},
+            "size":{
+              "width":385,
+              "height":60},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b712490ace6848c89e0049f5052181e5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-10,
+                  "y":50},
+                "size":{
+                  "width":385,
+                  "height":60},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 满分学习须知",
+                      "target":{
+                        "targetType":"page",
+                        "url":"满分学习须知.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d72b1af0db584c75bf33eaa4945a6ba1",
+          "label":"模拟考试1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":110},
+            "size":{
+              "width":385,
+              "height":60},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ac77f886301740e4b49e59ff8cba0681",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":110},
+                "size":{
+                  "width":385,
+                  "height":60},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 学习记录",
+                      "target":{
+                        "targetType":"page",
+                        "url":"学习记录_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"37cc7ba6247e4ef497fa118e064d53ee",
+          "label":"模拟考试1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":100,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e2df3716817646e79701f1bd9c2bed08",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":100,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "275555073b37440981f35dd194fd030f":{
+      "scriptId":"u0"},
+    "522cbc3b1ba146889e0a6b0d3eca9414":{
+      "scriptId":"u1"},
+    "9a33f7a2d91d48099303eb42994b9f00":{
+      "scriptId":"u2"},
+    "b712490ace6848c89e0049f5052181e5":{
+      "scriptId":"u3"},
+    "d72b1af0db584c75bf33eaa4945a6ba1":{
+      "scriptId":"u4"},
+    "ac77f886301740e4b49e59ff8cba0681":{
+      "scriptId":"u5"},
+    "37cc7ba6247e4ef497fa118e064d53ee":{
+      "scriptId":"u6"},
+    "e2df3716817646e79701f1bd9c2bed08":{
+      "scriptId":"u7"}}});

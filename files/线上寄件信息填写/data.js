@@ -1,0 +1,200 @@
+﻿$axure.loadCurrentPage({
+  "url":"线上寄件信息填写.html",
+  "generationDate":new Date(1503973161576.06),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"3c97558b3e4b4e6da57867e51dba899f",
+    "type":"Axure:Page",
+    "name":"线上寄件信息填写",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"eebfcb721f2148d1a525815a2f1f8163",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6d4fe51e61f34114b83c2a8f0e11f0d1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/线上寄件信息填写/u0.png"}},
+{
+          "id":"43beb5314edc4db7899f10aa73ff5260",
+          "label":"返回办理页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":410},
+            "size":{
+              "width":370,
+              "height":60},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"45ab5311baee488b86b397d23c85f61c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":410},
+                "size":{
+                  "width":370,
+                  "height":60},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 订单支付",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订单支付.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e1fb1637787440dda9d5d8a9a946b4d9",
+          "label":"返回免检",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-2,
+              "y":3},
+            "size":{
+              "width":121,
+              "height":53},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2226db6b226d4549a3eeac0c28465caa",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-2,
+                  "y":3},
+                "size":{
+                  "width":121,
+                  "height":53},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 线上收件信息填写",
+                      "target":{
+                        "targetType":"page",
+                        "url":"线上收件信息填写.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "eebfcb721f2148d1a525815a2f1f8163":{
+      "scriptId":"u0"},
+    "6d4fe51e61f34114b83c2a8f0e11f0d1":{
+      "scriptId":"u1"},
+    "43beb5314edc4db7899f10aa73ff5260":{
+      "scriptId":"u2"},
+    "45ab5311baee488b86b397d23c85f61c":{
+      "scriptId":"u3"},
+    "e1fb1637787440dda9d5d8a9a946b4d9":{
+      "scriptId":"u4"},
+    "2226db6b226d4549a3eeac0c28465caa":{
+      "scriptId":"u5"}}});

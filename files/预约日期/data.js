@@ -1,0 +1,906 @@
+﻿$axure.loadCurrentPage({
+  "url":"预约日期.html",
+  "generationDate":new Date(1503973160667),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"985998f7f8be4516a47bb132d369a76b",
+    "type":"Axure:Page",
+    "name":"预约日期",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e3ff868cf44c4394874903521d673390",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"04d6cb3c5dd946b6960c6791243fdb46",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/预约日期/u0.png"}},
+{
+          "id":"47a0d853a06a44acb744e330a859f4ad",
+          "label":"模拟考试1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":110,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"24973a45accd406cb44b6a1a318e5dcb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":110,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 业务预约",
+                      "target":{
+                        "targetType":"page",
+                        "url":"业务预约.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"91d75ea49f0d452da9f71951dd0fba6c",
+          "label":"选日期",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":10,
+              "y":340},
+            "size":{
+              "width":365,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"04f8d40b53fb42948af3f0a606b8e51a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":10,
+                  "y":340},
+                "size":{
+                  "width":365,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 日期,<br>选区",
+                      "objectsToFades":[{
+                          "objectPath":["a000dfdbab4246eb93b357ab85bdd830"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["70fbec3eb0744a8e91e23c05fc7fec50"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 This,<br>(图片),<br>模拟考试1,<br>选日期,<br>区,<br>选大队,<br>分局,<br>选时段,<br>时段,<br>预约确认",
+                      "objectsToFades":[{
+                          "objectPath":["91d75ea49f0d452da9f71951dd0fba6c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e3ff868cf44c4394874903521d673390"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["47a0d853a06a44acb744e330a859f4ad"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["91d75ea49f0d452da9f71951dd0fba6c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["30e615e2775c4f5cbe9429305ff9d30f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7edf2349fdda4e689e4f9126249c741e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1cdf99216171441b9bd8cf35877ff94a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["822029319b084de4ae67c94368d2cbf4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0145dcffd55b47f8bdfcfdc190e79b7f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d9d4b6b195894dff8872f41c4280b328"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a000dfdbab4246eb93b357ab85bdd830",
+          "label":"日期",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d2cc3eb8bb294cb98c4d29adf7de4fcd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/预约日期/日期_u6.png"}},
+{
+          "id":"70fbec3eb0744a8e91e23c05fc7fec50",
+          "label":"选区",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":10,
+              "y":86},
+            "size":{
+              "width":365,
+              "height":484},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f463c1368942442bb00d4c3df7257650",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":10,
+                  "y":86},
+                "size":{
+                  "width":365,
+                  "height":484},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 区,<br>选大队",
+                      "objectsToFades":[{
+                          "objectPath":["30e615e2775c4f5cbe9429305ff9d30f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7edf2349fdda4e689e4f9126249c741e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 选区,<br>日期,<br>选日期,<br>模拟考试1,<br>(图片),<br>This,<br>分局,<br>选时段,<br>时段,<br>预约确认",
+                      "objectsToFades":[{
+                          "objectPath":["70fbec3eb0744a8e91e23c05fc7fec50"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a000dfdbab4246eb93b357ab85bdd830"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["91d75ea49f0d452da9f71951dd0fba6c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["47a0d853a06a44acb744e330a859f4ad"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e3ff868cf44c4394874903521d673390"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["70fbec3eb0744a8e91e23c05fc7fec50"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1cdf99216171441b9bd8cf35877ff94a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["822029319b084de4ae67c94368d2cbf4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0145dcffd55b47f8bdfcfdc190e79b7f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d9d4b6b195894dff8872f41c4280b328"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"30e615e2775c4f5cbe9429305ff9d30f",
+          "label":"区",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":646},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8b13891f3e2040f58c4cabe09b0ace3a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":646},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/预约日期/区_u10.png"}},
+{
+          "id":"7edf2349fdda4e689e4f9126249c741e",
+          "label":"选大队",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":86},
+            "size":{
+              "width":370,
+              "height":50},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7d26e7c78c45406181d48de104cea311",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":86},
+                "size":{
+                  "width":370,
+                  "height":50},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 分局,<br>选时段",
+                      "objectsToFades":[{
+                          "objectPath":["1cdf99216171441b9bd8cf35877ff94a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["822029319b084de4ae67c94368d2cbf4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 This,<br>(图片),<br>模拟考试1,<br>选日期,<br>日期,<br>区,<br>选区,<br>选大队,<br>时段,<br>预约确认",
+                      "objectsToFades":[{
+                          "objectPath":["7edf2349fdda4e689e4f9126249c741e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e3ff868cf44c4394874903521d673390"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["47a0d853a06a44acb744e330a859f4ad"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["91d75ea49f0d452da9f71951dd0fba6c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a000dfdbab4246eb93b357ab85bdd830"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["30e615e2775c4f5cbe9429305ff9d30f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["70fbec3eb0744a8e91e23c05fc7fec50"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7edf2349fdda4e689e4f9126249c741e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0145dcffd55b47f8bdfcfdc190e79b7f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d9d4b6b195894dff8872f41c4280b328"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1cdf99216171441b9bd8cf35877ff94a",
+          "label":"分局",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":645},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f87a507ef5d54f4c8cd0906130d16533",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":645},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/预约日期/分局_u14.png"}},
+{
+          "id":"822029319b084de4ae67c94368d2cbf4",
+          "label":"选时段",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":128},
+            "size":{
+              "width":375,
+              "height":50},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f4d8322a19a0473594cdfe5c5d0a6e3a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":128},
+                "size":{
+                  "width":375,
+                  "height":50},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 时段,<br>预约确认",
+                      "objectsToFades":[{
+                          "objectPath":["0145dcffd55b47f8bdfcfdc190e79b7f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d9d4b6b195894dff8872f41c4280b328"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 选时段,<br>分局,<br>选大队,<br>区,<br>选区,<br>日期,<br>选日期,<br>模拟考试1,<br>(图片),<br>This",
+                      "objectsToFades":[{
+                          "objectPath":["822029319b084de4ae67c94368d2cbf4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1cdf99216171441b9bd8cf35877ff94a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7edf2349fdda4e689e4f9126249c741e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["30e615e2775c4f5cbe9429305ff9d30f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["70fbec3eb0744a8e91e23c05fc7fec50"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a000dfdbab4246eb93b357ab85bdd830"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["91d75ea49f0d452da9f71951dd0fba6c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["47a0d853a06a44acb744e330a859f4ad"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e3ff868cf44c4394874903521d673390"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["822029319b084de4ae67c94368d2cbf4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"0145dcffd55b47f8bdfcfdc190e79b7f",
+          "label":"时段",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":646},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b35eb1779bcd437887eaa0bb1c8a74f5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":646},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/预约日期/时段_u18.png"}},
+{
+          "id":"d9d4b6b195894dff8872f41c4280b328",
+          "label":"预约确认",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":86},
+            "size":{
+              "width":370,
+              "height":224},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dc88d1d00e9d47be9caf93110701429e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":86},
+                "size":{
+                  "width":370,
+                  "height":224},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 预约确认",
+                      "target":{
+                        "targetType":"page",
+                        "url":"预约确认.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e3ff868cf44c4394874903521d673390":{
+      "scriptId":"u0"},
+    "04d6cb3c5dd946b6960c6791243fdb46":{
+      "scriptId":"u1"},
+    "47a0d853a06a44acb744e330a859f4ad":{
+      "scriptId":"u2"},
+    "24973a45accd406cb44b6a1a318e5dcb":{
+      "scriptId":"u3"},
+    "91d75ea49f0d452da9f71951dd0fba6c":{
+      "scriptId":"u4"},
+    "04f8d40b53fb42948af3f0a606b8e51a":{
+      "scriptId":"u5"},
+    "a000dfdbab4246eb93b357ab85bdd830":{
+      "scriptId":"u6"},
+    "d2cc3eb8bb294cb98c4d29adf7de4fcd":{
+      "scriptId":"u7"},
+    "70fbec3eb0744a8e91e23c05fc7fec50":{
+      "scriptId":"u8"},
+    "f463c1368942442bb00d4c3df7257650":{
+      "scriptId":"u9"},
+    "30e615e2775c4f5cbe9429305ff9d30f":{
+      "scriptId":"u10"},
+    "8b13891f3e2040f58c4cabe09b0ace3a":{
+      "scriptId":"u11"},
+    "7edf2349fdda4e689e4f9126249c741e":{
+      "scriptId":"u12"},
+    "7d26e7c78c45406181d48de104cea311":{
+      "scriptId":"u13"},
+    "1cdf99216171441b9bd8cf35877ff94a":{
+      "scriptId":"u14"},
+    "f87a507ef5d54f4c8cd0906130d16533":{
+      "scriptId":"u15"},
+    "822029319b084de4ae67c94368d2cbf4":{
+      "scriptId":"u16"},
+    "f4d8322a19a0473594cdfe5c5d0a6e3a":{
+      "scriptId":"u17"},
+    "0145dcffd55b47f8bdfcfdc190e79b7f":{
+      "scriptId":"u18"},
+    "b35eb1779bcd437887eaa0bb1c8a74f5":{
+      "scriptId":"u19"},
+    "d9d4b6b195894dff8872f41c4280b328":{
+      "scriptId":"u20"},
+    "dc88d1d00e9d47be9caf93110701429e":{
+      "scriptId":"u21"}}});

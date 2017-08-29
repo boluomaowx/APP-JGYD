@@ -1,0 +1,569 @@
+﻿$axure.loadCurrentPage({
+  "url":"线下预约.html",
+  "generationDate":new Date(1503973161895.07),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"97b9a9e9b99242739e28d6ea3ddc4497",
+    "type":"Axure:Page",
+    "name":"线下预约",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"705b1737fbe940f181f4d9d10558f4d4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":646},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b336bbdd251b4dd4a05b09db7c7a9bec",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":646},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 区",
+                      "objectsToFades":[{
+                          "objectPath":["563c7cf7a1fa424cad6c85fac86f320f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/线下预约/u0.png"}},
+{
+          "id":"563c7cf7a1fa424cad6c85fac86f320f",
+          "label":"区",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":645},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3a1a968207de46e59b6ea6fca76cdbc5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":645},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 分区",
+                      "objectsToFades":[{
+                          "objectPath":["af5e1456193444fd881ad6f345c5c317"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/线下预约/区_u2.png"}},
+{
+          "id":"af5e1456193444fd881ad6f345c5c317",
+          "label":"分区",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":374,
+              "height":646},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"01f0f1ffc9ee4c248238282e94a69e9c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":374,
+                  "height":646},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 时段",
+                      "objectsToFades":[{
+                          "objectPath":["6c2a2c91070347b7b6171fdc67ab6ea9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/线下预约/分区_u4.png"}},
+{
+          "id":"6c2a2c91070347b7b6171fdc67ab6ea9",
+          "label":"时段",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":646},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d0b04c4e3cb54007920f9108dc7df26b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":646},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 蒙版,<br>提交成功,<br>审核结果查询,<br>返回办理页,<br>(水平线),<br>(垂直线)",
+                      "objectsToFades":[{
+                          "objectPath":["0b32942bd7ef47e29a1aaed7adbf13d0"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["73338d223678428aa831b4893b7e4d5c"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c9dcebf4e17948d48c236f217da5955d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c855a6cbe7bf428db6901b8a34f32881"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e1a49cb6ee504680a6730ef9782dfb50"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["cbbd04f46ad6406c839b5f6faa3be3c5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/线下预约/时段_u6.png"}},
+{
+          "id":"0b32942bd7ef47e29a1aaed7adbf13d0",
+          "label":"蒙版",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xC9A1A1A1},
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f767fee515684d20bde2c41132a9b6ca",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xC9A1A1A1},
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/免检业务申请/蒙版_u4.png"}},
+{
+          "id":"73338d223678428aa831b4893b7e4d5c",
+          "label":"提交成功",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "verticalAlignment":"top",
+            "location":{
+              "x":62,
+              "y":213},
+            "size":{
+              "width":250,
+              "height":117},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFC9C9C9},
+            "cornerRadiusTopLeft":"8"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4d582a16ea114c219502fdb787e864bb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "verticalAlignment":"top",
+                "location":{
+                  "x":62,
+                  "y":213},
+                "size":{
+                  "width":250,
+                  "height":117},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFC9C9C9},
+                "cornerRadiusTopLeft":"8"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/免检业务申请/提交成功_u6.png"}},
+{
+          "id":"c9dcebf4e17948d48c236f217da5955d",
+          "label":"审核结果查询",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":62,
+              "y":295},
+            "size":{
+              "width":127,
+              "height":35},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0705ed5bcb6c4db6b7ac793bad6baa88",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":62,
+                  "y":295},
+                "size":{
+                  "width":127,
+                  "height":35},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 审核结果查询",
+                      "target":{
+                        "targetType":"page",
+                        "url":"审核结果查询.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c855a6cbe7bf428db6901b8a34f32881",
+          "label":"返回办理页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":190,
+              "y":295},
+            "size":{
+              "width":123,
+              "height":35},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4c850ee718b14bc79cb454c9191f94a6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":190,
+                  "y":295},
+                "size":{
+                  "width":123,
+                  "height":35},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e1a49cb6ee504680a6730ef9782dfb50",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":76,
+              "y":288},
+            "size":{
+              "width":224,
+              "height":10},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE4E4E4}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/免检业务申请/u12_line.png"}},
+{
+          "id":"cbbd04f46ad6406c839b5f6faa3be3c5",
+          "label":"",
+          "type":"verticalLine",
+          "styleType":"verticalLine",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":182,
+              "y":298},
+            "size":{
+              "width":10,
+              "height":27},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE4E4E4}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/免检业务申请/u13_line.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "705b1737fbe940f181f4d9d10558f4d4":{
+      "scriptId":"u0"},
+    "b336bbdd251b4dd4a05b09db7c7a9bec":{
+      "scriptId":"u1"},
+    "563c7cf7a1fa424cad6c85fac86f320f":{
+      "scriptId":"u2"},
+    "3a1a968207de46e59b6ea6fca76cdbc5":{
+      "scriptId":"u3"},
+    "af5e1456193444fd881ad6f345c5c317":{
+      "scriptId":"u4"},
+    "01f0f1ffc9ee4c248238282e94a69e9c":{
+      "scriptId":"u5"},
+    "6c2a2c91070347b7b6171fdc67ab6ea9":{
+      "scriptId":"u6"},
+    "d0b04c4e3cb54007920f9108dc7df26b":{
+      "scriptId":"u7"},
+    "0b32942bd7ef47e29a1aaed7adbf13d0":{
+      "scriptId":"u8"},
+    "f767fee515684d20bde2c41132a9b6ca":{
+      "scriptId":"u9"},
+    "73338d223678428aa831b4893b7e4d5c":{
+      "scriptId":"u10"},
+    "4d582a16ea114c219502fdb787e864bb":{
+      "scriptId":"u11"},
+    "c9dcebf4e17948d48c236f217da5955d":{
+      "scriptId":"u12"},
+    "0705ed5bcb6c4db6b7ac793bad6baa88":{
+      "scriptId":"u13"},
+    "c855a6cbe7bf428db6901b8a34f32881":{
+      "scriptId":"u14"},
+    "4c850ee718b14bc79cb454c9191f94a6":{
+      "scriptId":"u15"},
+    "e1a49cb6ee504680a6730ef9782dfb50":{
+      "scriptId":"u16"},
+    "cbbd04f46ad6406c839b5f6faa3be3c5":{
+      "scriptId":"u17"}}});

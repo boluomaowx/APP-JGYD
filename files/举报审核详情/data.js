@@ -1,0 +1,242 @@
+﻿$axure.loadCurrentPage({
+  "url":"举报审核详情.html",
+  "generationDate":new Date(1503973156787.78),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"3ed715dda07b469eb7a0f7715bafaede",
+    "type":"Axure:Page",
+    "name":"举报审核详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"abe23b7df1984a86a67a94586c9e6213",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3d519aa9f6ec439d98f26a5724cbfdf2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/举报成功详情/u0.png"}},
+{
+          "id":"72c3ad8f0c144014933172319f787fd2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x333333,
+              "opacity":0},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":90,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f7554d32b57b4816bfda2a75b0f47e10",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0x333333,
+                  "opacity":0},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":90,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 历史举报",
+                      "target":{
+                        "targetType":"page",
+                        "url":"历史举报.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c5818115045840729745c723602c7af0",
+          "label":"我年审",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微軟正黑體 Bold', '微軟正黑體'",
+            "fontSize":"18px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF3F92D9,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF},
+            "location":{
+              "x":163,
+              "y":80},
+            "size":{
+              "width":77,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"857c7986dd7543ac910b40103150f7d0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微軟正黑體 Bold', '微軟正黑體'",
+                "fontSize":"18px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF3F92D9,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF},
+                "location":{
+                  "x":163,
+                  "y":80},
+                "size":{
+                  "width":77,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/举报审核详情/我年审_u4.png"}},
+{
+          "id":"6cccd24d1d2b4078a0359cc9d2a4fa92",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFF6F6F6},
+            "location":{
+              "x":0,
+              "y":350},
+            "size":{
+              "width":380,
+              "height":200},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"eb8d68b040e641eeaeb1f0a2e12bb44f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFF6F6F6},
+                "location":{
+                  "x":0,
+                  "y":350},
+                "size":{
+                  "width":380,
+                  "height":200},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/举报审核详情/u6.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "abe23b7df1984a86a67a94586c9e6213":{
+      "scriptId":"u0"},
+    "3d519aa9f6ec439d98f26a5724cbfdf2":{
+      "scriptId":"u1"},
+    "72c3ad8f0c144014933172319f787fd2":{
+      "scriptId":"u2"},
+    "f7554d32b57b4816bfda2a75b0f47e10":{
+      "scriptId":"u3"},
+    "c5818115045840729745c723602c7af0":{
+      "scriptId":"u4"},
+    "857c7986dd7543ac910b40103150f7d0":{
+      "scriptId":"u5"},
+    "6cccd24d1d2b4078a0359cc9d2a4fa92":{
+      "scriptId":"u6"},
+    "eb8d68b040e641eeaeb1f0a2e12bb44f":{
+      "scriptId":"u7"}}});

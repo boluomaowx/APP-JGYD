@@ -1,0 +1,384 @@
+﻿$axure.loadCurrentPage({
+  "url":"忘记密码.html",
+  "generationDate":new Date(1503973161014.02),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"98e3e6dd7af8431ea6c3a71fb6e1db97",
+    "type":"Axure:Page",
+    "name":"忘记密码",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"6efa9a8dd0224c7ca5544918cd2187ad",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2141975c049f4e0c9b2b90ff8c47add0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/忘记密码/u0.png"}},
+{
+          "id":"8373db51b528472a9ed365c4600eb942",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":120,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2785e6da39314b53b9c439b23749bdf1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":120,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 预约首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"预约首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"fe81d3d3972d4584b0ba2b5a0159148c",
+          "label":"确认取消预约",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":12.5,
+              "y":170},
+            "size":{
+              "width":350,
+              "height":60},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b277231c9cc34cc7966b9c7e74324ab2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":12.5,
+                  "y":170},
+                "size":{
+                  "width":350,
+                  "height":60},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 This,<br>确认取消预约,<br>返回",
+                      "objectsToFades":[{
+                          "objectPath":["fe81d3d3972d4584b0ba2b5a0159148c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["fe81d3d3972d4584b0ba2b5a0159148c"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["8373db51b528472a9ed365c4600eb942"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 蒙版,<br>确认,<br>(图片)",
+                      "objectsToFades":[{
+                          "objectPath":["0eedcb219cb64a01b6f58dc79a15f306"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["5fb0cdec35a74aac9dd4dcd9fbae9e57"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1dd9b85be04b4ffdbbed563216745dce"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"0eedcb219cb64a01b6f58dc79a15f306",
+          "label":"蒙版",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "opacity":"0.7",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF000000},
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"26d0ae8ce5a545abb024e6531203d689",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "opacity":"0.7",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF000000},
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/举报资料/蒙版_u8.png"}},
+{
+          "id":"1dd9b85be04b4ffdbbed563216745dce",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":34,
+              "y":150},
+            "size":{
+              "width":307,
+              "height":205},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a95a9fafaff14ca9b55d63b82eadb844",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":34,
+                  "y":150},
+                "size":{
+                  "width":307,
+                  "height":205},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/忘记密码/u8.png"}},
+{
+          "id":"5fb0cdec35a74aac9dd4dcd9fbae9e57",
+          "label":"确认",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":34,
+              "y":309},
+            "size":{
+              "width":296,
+              "height":46},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"240cb988976e473c9df48592c849984b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":34,
+                  "y":309},
+                "size":{
+                  "width":296,
+                  "height":46},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 预约首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"预约首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6efa9a8dd0224c7ca5544918cd2187ad":{
+      "scriptId":"u0"},
+    "2141975c049f4e0c9b2b90ff8c47add0":{
+      "scriptId":"u1"},
+    "8373db51b528472a9ed365c4600eb942":{
+      "scriptId":"u2"},
+    "2785e6da39314b53b9c439b23749bdf1":{
+      "scriptId":"u3"},
+    "fe81d3d3972d4584b0ba2b5a0159148c":{
+      "scriptId":"u4"},
+    "b277231c9cc34cc7966b9c7e74324ab2":{
+      "scriptId":"u5"},
+    "0eedcb219cb64a01b6f58dc79a15f306":{
+      "scriptId":"u6"},
+    "26d0ae8ce5a545abb024e6531203d689":{
+      "scriptId":"u7"},
+    "1dd9b85be04b4ffdbbed563216745dce":{
+      "scriptId":"u8"},
+    "a95a9fafaff14ca9b55d63b82eadb844":{
+      "scriptId":"u9"},
+    "5fb0cdec35a74aac9dd4dcd9fbae9e57":{
+      "scriptId":"u10"},
+    "240cb988976e473c9df48592c849984b":{
+      "scriptId":"u11"}}});

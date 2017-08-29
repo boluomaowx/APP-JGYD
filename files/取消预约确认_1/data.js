@@ -1,0 +1,588 @@
+﻿$axure.loadCurrentPage({
+  "url":"取消预约确认_1.html",
+  "generationDate":new Date(1503973162066.08),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"fee943794e82445a80f08f0d12c5b8d3",
+    "type":"Axure:Page",
+    "name":"取消预约确认",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"4ed72fd8fae84d629fb38c8e51eafe77",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"21cc7c71d3c249fe8c41da0d1a96f581",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/取消预约确认_1/u0.png"}},
+{
+          "id":"e160e782083847d89d192dbdcd9970d1",
+          "label":"取消预约",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":12.5,
+              "y":358},
+            "size":{
+              "width":350,
+              "height":52},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4b5a6b6cb98c4c02be14fe171af2416a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":12.5,
+                  "y":358},
+                "size":{
+                  "width":350,
+                  "height":52},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 提示,<br>取消,<br>确定",
+                      "objectsToFades":[{
+                          "objectPath":["f119a9eefab843cc99039f62cae729ff"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2f375355d9af465f8306eccd6fadec8f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6f523be8b9194bbebccca688a4ba30f4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 (图片),<br>取消预约,<br>返回办理页,<br>取消成功,<br>返回办理页2",
+                      "objectsToFades":[{
+                          "objectPath":["4ed72fd8fae84d629fb38c8e51eafe77"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e160e782083847d89d192dbdcd9970d1"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["787d2667e87f453bb86b40fb47663d76"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["8cf9d201e83a4cbcb2ac2a8e5b2583d8"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bea179f6daec4ca4802a50d6d268fb12"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f119a9eefab843cc99039f62cae729ff",
+          "label":"提示",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c2376d1705f14d31b6c68aaf7286b2b4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/取消预约确认_1/提示_u4.png"}},
+{
+          "id":"2f375355d9af465f8306eccd6fadec8f",
+          "label":"取消",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":25,
+              "y":328},
+            "size":{
+              "width":160,
+              "height":42},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8e46289ecfff426da6dbb3e8be522ec0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":25,
+                  "y":328},
+                "size":{
+                  "width":160,
+                  "height":42},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 提示,<br>取消,<br>确定",
+                      "objectsToFades":[{
+                          "objectPath":["f119a9eefab843cc99039f62cae729ff"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2f375355d9af465f8306eccd6fadec8f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6f523be8b9194bbebccca688a4ba30f4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 (图片),<br>取消预约,<br>返回办理页",
+                      "objectsToFades":[{
+                          "objectPath":["4ed72fd8fae84d629fb38c8e51eafe77"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e160e782083847d89d192dbdcd9970d1"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["787d2667e87f453bb86b40fb47663d76"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"6f523be8b9194bbebccca688a4ba30f4",
+          "label":"确定",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":185,
+              "y":328},
+            "size":{
+              "width":160,
+              "height":42},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"197427bd31014da5a1e583cf72f9cff4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":185,
+                  "y":328},
+                "size":{
+                  "width":160,
+                  "height":42},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 返回办理页2,<br>取消成功",
+                      "objectsToFades":[{
+                          "objectPath":["bea179f6daec4ca4802a50d6d268fb12"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["8cf9d201e83a4cbcb2ac2a8e5b2583d8"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 (图片),<br>提示,<br>取消预约,<br>取消,<br>确定,<br>返回办理页",
+                      "objectsToFades":[{
+                          "objectPath":["4ed72fd8fae84d629fb38c8e51eafe77"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f119a9eefab843cc99039f62cae729ff"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e160e782083847d89d192dbdcd9970d1"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2f375355d9af465f8306eccd6fadec8f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6f523be8b9194bbebccca688a4ba30f4"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["787d2667e87f453bb86b40fb47663d76"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"787d2667e87f453bb86b40fb47663d76",
+          "label":"返回办理页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":110,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8258c9366b6f4bf5b9228f6fcba04df7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":110,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 取消预约输入",
+                      "target":{
+                        "targetType":"page",
+                        "url":"取消预约输入.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"8cf9d201e83a4cbcb2ac2a8e5b2583d8",
+          "label":"取消成功",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"efef51858e7d4918acd577d58cc0f280",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/取消预约确认_1/取消成功_u12.png"}},
+{
+          "id":"bea179f6daec4ca4802a50d6d268fb12",
+          "label":"返回办理页2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":25,
+              "y":318},
+            "size":{
+              "width":315,
+              "height":52},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a69f3485ea3e45f0b859cb6804e7db0b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":25,
+                  "y":318},
+                "size":{
+                  "width":315,
+                  "height":52},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 六年免检办理及预约",
+                      "target":{
+                        "targetType":"page",
+                        "url":"六年免检办理及预约.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "4ed72fd8fae84d629fb38c8e51eafe77":{
+      "scriptId":"u0"},
+    "21cc7c71d3c249fe8c41da0d1a96f581":{
+      "scriptId":"u1"},
+    "e160e782083847d89d192dbdcd9970d1":{
+      "scriptId":"u2"},
+    "4b5a6b6cb98c4c02be14fe171af2416a":{
+      "scriptId":"u3"},
+    "f119a9eefab843cc99039f62cae729ff":{
+      "scriptId":"u4"},
+    "c2376d1705f14d31b6c68aaf7286b2b4":{
+      "scriptId":"u5"},
+    "2f375355d9af465f8306eccd6fadec8f":{
+      "scriptId":"u6"},
+    "8e46289ecfff426da6dbb3e8be522ec0":{
+      "scriptId":"u7"},
+    "6f523be8b9194bbebccca688a4ba30f4":{
+      "scriptId":"u8"},
+    "197427bd31014da5a1e583cf72f9cff4":{
+      "scriptId":"u9"},
+    "787d2667e87f453bb86b40fb47663d76":{
+      "scriptId":"u10"},
+    "8258c9366b6f4bf5b9228f6fcba04df7":{
+      "scriptId":"u11"},
+    "8cf9d201e83a4cbcb2ac2a8e5b2583d8":{
+      "scriptId":"u12"},
+    "efef51858e7d4918acd577d58cc0f280":{
+      "scriptId":"u13"},
+    "bea179f6daec4ca4802a50d6d268fb12":{
+      "scriptId":"u14"},
+    "a69f3485ea3e45f0b859cb6804e7db0b":{
+      "scriptId":"u15"}}});

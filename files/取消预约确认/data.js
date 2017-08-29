@@ -1,0 +1,323 @@
+﻿$axure.loadCurrentPage({
+  "url":"取消预约确认.html",
+  "generationDate":new Date(1503973160906.02),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"b73af22d6d7a4e72a156e7cd3b9facb9",
+    "type":"Axure:Page",
+    "name":"取消预约确认",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b9898992ea4d439e821a6699e0596e89",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c9890aedae6a4e5f9cf0c56c8553730d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/取消预约确认/u0.png"}},
+{
+          "id":"bd8055e6115249e897b8ff7fc6f20f2f",
+          "label":"取消成功",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bbd417bb6b2b46d1b868ceed87599097",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/取消预约确认/取消成功_u2.png"}},
+{
+          "id":"54ff72e38abd49a9adbe3e81998ff03e",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":120,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"12f52f8d72b8447eb1fa8262f800ac66",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":120,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 预约首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"预约首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"47fa21d0e06e4552b96e49871f90cf1e",
+          "label":"确认取消预约",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":12.5,
+              "y":420},
+            "size":{
+              "width":350,
+              "height":60},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b3a75ecbd3b946dfb885668239ae5394",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":12.5,
+                  "y":420},
+                "size":{
+                  "width":350,
+                  "height":60},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 返回,<br>取消成功",
+                      "objectsToFades":[{
+                          "objectPath":["ff2bf74c10d149b286fe7fc859d84430"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bd8055e6115249e897b8ff7fc6f20f2f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 This,<br>(图片),<br>确认取消预约,<br>返回",
+                      "objectsToFades":[{
+                          "objectPath":["47fa21d0e06e4552b96e49871f90cf1e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["b9898992ea4d439e821a6699e0596e89"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["47fa21d0e06e4552b96e49871f90cf1e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["54ff72e38abd49a9adbe3e81998ff03e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ff2bf74c10d149b286fe7fc859d84430",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":25,
+              "y":321},
+            "size":{
+              "width":320,
+              "height":49},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6a3b3845cf47421e80ee04f3489a772f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":25,
+                  "y":321},
+                "size":{
+                  "width":320,
+                  "height":49},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 预约首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"预约首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b9898992ea4d439e821a6699e0596e89":{
+      "scriptId":"u0"},
+    "c9890aedae6a4e5f9cf0c56c8553730d":{
+      "scriptId":"u1"},
+    "bd8055e6115249e897b8ff7fc6f20f2f":{
+      "scriptId":"u2"},
+    "bbd417bb6b2b46d1b868ceed87599097":{
+      "scriptId":"u3"},
+    "54ff72e38abd49a9adbe3e81998ff03e":{
+      "scriptId":"u4"},
+    "12f52f8d72b8447eb1fa8262f800ac66":{
+      "scriptId":"u5"},
+    "47fa21d0e06e4552b96e49871f90cf1e":{
+      "scriptId":"u6"},
+    "b3a75ecbd3b946dfb885668239ae5394":{
+      "scriptId":"u7"},
+    "ff2bf74c10d149b286fe7fc859d84430":{
+      "scriptId":"u8"},
+    "6a3b3845cf47421e80ee04f3489a772f":{
+      "scriptId":"u9"}}});

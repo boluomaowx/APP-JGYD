@@ -1,0 +1,698 @@
+﻿$axure.loadCurrentPage({
+  "url":"选择收取回执方式.html",
+  "generationDate":new Date(1503973159486.94),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"9165dadeb3fb45eda5abca380d9a3087",
+    "type":"Axure:Page",
+    "name":"选择收取回执方式",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"bfaaad2815eb4eafa0605307bafba910",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":180},
+            "size":{
+              "width":375,
+              "height":332},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ca91bca38b244982a02a723e07cfe132",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":180},
+                "size":{
+                  "width":375,
+                  "height":332},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择收取回执方式/u0.png"}},
+{
+          "id":"c14306a370a9466abff7c98d92628f1a",
+          "label":"窗口",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":5,
+              "y":0},
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"77d59d343a1c4d74bdefd45ea2714cfc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":5,
+                  "y":0},
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择收取回执方式/窗口_u2.png"}},
+{
+          "id":"c674300220e140c38462315a59a26ce8",
+          "label":"选择2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-10,
+              "y":186},
+            "size":{
+              "width":380,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"491ae1afaef2410583713fe2a88e700c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-10,
+                  "y":186},
+                "size":{
+                  "width":380,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 提交1,<br>选择1,<br>窗口",
+                      "objectsToFades":[{
+                          "objectPath":["ff15da24feb74c10b2d1d4a8e8a960ec"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a1b040adccdf49c5b57c36c5c79e77f5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c14306a370a9466abff7c98d92628f1a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 (图片),<br>选择2,<br>提交2",
+                      "objectsToFades":[{
+                          "objectPath":["bfaaad2815eb4eafa0605307bafba910"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c674300220e140c38462315a59a26ce8"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c25c55d60d6b409bad2c0f9256b36ed5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a1b040adccdf49c5b57c36c5c79e77f5",
+          "label":"选择1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":5,
+              "y":180},
+            "size":{
+              "width":380,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"19976e6a50004eeea403dadbf7117b19",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":5,
+                  "y":180},
+                "size":{
+                  "width":380,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 (图片),<br>提交2,<br>选择2",
+                      "objectsToFades":[{
+                          "objectPath":["bfaaad2815eb4eafa0605307bafba910"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c25c55d60d6b409bad2c0f9256b36ed5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c674300220e140c38462315a59a26ce8"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 窗口,<br>选择1,<br>提交1",
+                      "objectsToFades":[{
+                          "objectPath":["c14306a370a9466abff7c98d92628f1a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a1b040adccdf49c5b57c36c5c79e77f5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ff15da24feb74c10b2d1d4a8e8a960ec"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c25c55d60d6b409bad2c0f9256b36ed5",
+          "label":"提交2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-15,
+              "y":416},
+            "size":{
+              "width":380,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b415205ef0b04dd888f5cfe60955d44e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-15,
+                  "y":416},
+                "size":{
+                  "width":380,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 确认按钮,<br>确认按钮,<br>蒙版,<br>(水平线)",
+                      "objectsToFades":[{
+                          "objectPath":["929db0978f7b46e493c0af81effeab29"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["56a45751f67d44899818d4530893acc5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["768713fc5248418c89572da05aeedb27"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["82ca0e7d74004337b312e4ff1f0eeeb4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ff15da24feb74c10b2d1d4a8e8a960ec",
+          "label":"提交1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":320},
+            "size":{
+              "width":380,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c0ef54d17a044c01aee5afbf1b7fa1a6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":320},
+                "size":{
+                  "width":380,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 确认按钮,<br>确认按钮,<br>蒙版,<br>(水平线)",
+                      "objectsToFades":[{
+                          "objectPath":["929db0978f7b46e493c0af81effeab29"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["56a45751f67d44899818d4530893acc5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["768713fc5248418c89572da05aeedb27"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["82ca0e7d74004337b312e4ff1f0eeeb4"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"768713fc5248418c89572da05aeedb27",
+          "label":"蒙版",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "opacity":"0.7",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF000000},
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7af37abc5bd748c69d17353eea463914",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "opacity":"0.7",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF000000},
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/举报资料/蒙版_u8.png"}},
+{
+          "id":"56a45751f67d44899818d4530893acc5",
+          "label":"确认按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "verticalAlignment":"top",
+            "lineSpacing":"28px",
+            "paddingTop":"25",
+            "location":{
+              "x":35,
+              "y":210},
+            "size":{
+              "width":306,
+              "height":130},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE5E5E5},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6d0fee99e7ab4084a789e97526198c11",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "verticalAlignment":"top",
+                "lineSpacing":"28px",
+                "paddingTop":"25",
+                "location":{
+                  "x":35,
+                  "y":210},
+                "size":{
+                  "width":306,
+                  "height":130},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFE5E5E5},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 链接",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/举报资料/确认按钮_u10.png"}},
+{
+          "id":"929db0978f7b46e493c0af81effeab29",
+          "label":"确认按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4D9BDA,
+              "opacity":1},
+            "location":{
+              "x":67,
+              "y":295},
+            "size":{
+              "width":241,
+              "height":35},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"8"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"60f9210081e3477c97e2c9c6eefad71b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "fontSize":"14px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF4D9BDA,
+                  "opacity":1},
+                "location":{
+                  "x":67,
+                  "y":295},
+                "size":{
+                  "width":241,
+                  "height":35},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"8"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 学习记录",
+                      "target":{
+                        "targetType":"page",
+                        "url":"学习记录.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/举报资料/确认按钮_u12.png"}},
+{
+          "id":"82ca0e7d74004337b312e4ff1f0eeeb4",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":67,
+              "y":285},
+            "size":{
+              "width":240,
+              "height":10},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE5E5E5}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/举报资料/u14_line.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "bfaaad2815eb4eafa0605307bafba910":{
+      "scriptId":"u0"},
+    "ca91bca38b244982a02a723e07cfe132":{
+      "scriptId":"u1"},
+    "c14306a370a9466abff7c98d92628f1a":{
+      "scriptId":"u2"},
+    "77d59d343a1c4d74bdefd45ea2714cfc":{
+      "scriptId":"u3"},
+    "c674300220e140c38462315a59a26ce8":{
+      "scriptId":"u4"},
+    "491ae1afaef2410583713fe2a88e700c":{
+      "scriptId":"u5"},
+    "a1b040adccdf49c5b57c36c5c79e77f5":{
+      "scriptId":"u6"},
+    "19976e6a50004eeea403dadbf7117b19":{
+      "scriptId":"u7"},
+    "c25c55d60d6b409bad2c0f9256b36ed5":{
+      "scriptId":"u8"},
+    "b415205ef0b04dd888f5cfe60955d44e":{
+      "scriptId":"u9"},
+    "ff15da24feb74c10b2d1d4a8e8a960ec":{
+      "scriptId":"u10"},
+    "c0ef54d17a044c01aee5afbf1b7fa1a6":{
+      "scriptId":"u11"},
+    "768713fc5248418c89572da05aeedb27":{
+      "scriptId":"u12"},
+    "7af37abc5bd748c69d17353eea463914":{
+      "scriptId":"u13"},
+    "56a45751f67d44899818d4530893acc5":{
+      "scriptId":"u14"},
+    "6d0fee99e7ab4084a789e97526198c11":{
+      "scriptId":"u15"},
+    "929db0978f7b46e493c0af81effeab29":{
+      "scriptId":"u16"},
+    "60f9210081e3477c97e2c9c6eefad71b":{
+      "scriptId":"u17"},
+    "82ca0e7d74004337b312e4ff1f0eeeb4":{
+      "scriptId":"u18"}}});

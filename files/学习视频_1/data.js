@@ -1,0 +1,927 @@
+﻿$axure.loadCurrentPage({
+  "url":"学习视频_1.html",
+  "generationDate":new Date(1503973159928.96),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"2587f34939d440c69ac6f84c19edd912",
+    "type":"Axure:Page",
+    "name":"学习视频",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7cc4039a1cef4438b402e53760502b40",
+          "label":"蒙版",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0.7",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF000000},
+            "size":{
+              "width":375,
+              "height":647},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9a21733d46f04e3498ec2bb33ab39822",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0.7",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF000000},
+                "size":{
+                  "width":375,
+                  "height":647},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/举报资料/蒙版_u8.png"}},
+{
+          "id":"3c1894251e3e4edcbb7ec22e0d365b52",
+          "label":"关闭按钮",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":333,
+              "y":177},
+            "size":{
+              "width":29,
+              "height":26},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d3985d83e3d94ef7b65a7ad1a4a6798a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":333,
+                  "y":177},
+                "size":{
+                  "width":29,
+                  "height":26},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 竖屏,<br>确认按钮,<br>选择答案",
+                      "objectsToFades":[{
+                          "objectPath":["f33de7afe98643d9ade3c754cfd14f9e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["00a13800ab264ec19bebe24d58c73751"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["56152dd2b330469cb0746da65c8b02ae"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 蒙版,<br>关闭按钮,<br>提示,<br>(形状),<br>(形状)",
+                      "objectsToFades":[{
+                          "objectPath":["7cc4039a1cef4438b402e53760502b40"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["3c1894251e3e4edcbb7ec22e0d365b52"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bb1ab3263d9348cf9420888873ff55d5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d5b5e2eb7c82409f89c1c23804eebcfa"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["5ce606e1c5a74f98a27cb5e4f9c446d3"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/自助移车/关闭按钮_u11.png"}},
+{
+          "id":"bb1ab3263d9348cf9420888873ff55d5",
+          "label":"提示",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":10,
+              "y":213},
+            "size":{
+              "width":349,
+              "height":165},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0975b834c32c45088b50983ab8c0d3da",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":10,
+                  "y":213},
+                "size":{
+                  "width":349,
+                  "height":165},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/学习视频/提示_u4.png"}},
+{
+          "id":"d5b5e2eb7c82409f89c1c23804eebcfa",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontSize":"14px",
+            "horizontalAlignment":"left",
+            "location":{
+              "x":29,
+              "y":265},
+            "size":{
+              "width":316,
+              "height":100},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0dec44250197408db578ae76885a30f5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontSize":"14px",
+                "horizontalAlignment":"left",
+                "location":{
+                  "x":29,
+                  "y":265},
+                "size":{
+                  "width":316,
+                  "height":100},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/学习视频/u6.png"}},
+{
+          "id":"5ce606e1c5a74f98a27cb5e4f9c446d3",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "location":{
+              "x":77,
+              "y":222},
+            "size":{
+              "width":215,
+              "height":28},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"667108ba0aff453db90957f5cff6f6fc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "location":{
+                  "x":77,
+                  "y":222},
+                "size":{
+                  "width":215,
+                  "height":28},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/学习视频/u8.png"}},
+{
+          "id":"f33de7afe98643d9ade3c754cfd14f9e",
+          "label":"竖屏",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bda1dfc2d5bd46669f9ebc9dfc57333b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/学习视频/竖屏_u10.png"}},
+{
+          "id":"00a13800ab264ec19bebe24d58c73751",
+          "label":"确认按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "lineSpacing":"20px",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF2284D3},
+            "location":{
+              "x":80,
+              "y":420},
+            "size":{
+              "width":230,
+              "height":68},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c0670105ceca44b99a0691926886128c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "lineSpacing":"20px",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF2284D3},
+                "location":{
+                  "x":80,
+                  "y":420},
+                "size":{
+                  "width":230,
+                  "height":68},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 横屏无验证码",
+                      "objectsToFades":[{
+                          "objectPath":["eb821862f02f4f2598d3310309d38d92"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 This,<br>竖屏,<br>确认按钮,<br>确认按钮,<br>学习结束按钮,<br>确认按钮,<br>(水平线),<br>验证码",
+                      "objectsToFades":[{
+                          "objectPath":["00a13800ab264ec19bebe24d58c73751"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f33de7afe98643d9ade3c754cfd14f9e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["00a13800ab264ec19bebe24d58c73751"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e24cc5a9c5f34bebb78a046aa27b3740"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d7d5fa21cc344a098e94c9d206c41acf"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7e311a013eb346568059e56c3c832bcd"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["292879df53ae420c8caad8f9edb66461"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["7c117bd743e341e0b80f0d13b9fca1dc"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/学习视频/确认按钮_u12.png"}},
+{
+          "id":"56152dd2b330469cb0746da65c8b02ae",
+          "label":"选择答案",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":120,
+              "height":50},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"304bd083dedb475aa2ef889e145a2f4d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":120,
+                  "height":50},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 身体证明",
+                      "target":{
+                        "targetType":"page",
+                        "url":"身体证明.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"eb821862f02f4f2598d3310309d38d92",
+          "label":"横屏无验证码",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false,
+            "rotation":"180",
+            "textRotation":"180"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d42e206a6b7440a4ad451c462f6f0259",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false,
+                "rotation":"180",
+                "textRotation":"180"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 验证码",
+                      "objectsToFades":[{
+                          "objectPath":["7c117bd743e341e0b80f0d13b9fca1dc"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/学习视频/横屏无验证码_u16.png"}},
+{
+          "id":"7c117bd743e341e0b80f0d13b9fca1dc",
+          "label":"验证码",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":-46,
+              "y":254},
+            "size":{
+              "width":217,
+              "height":74},
+            "visible":false,
+            "rotation":"270",
+            "textRotation":"180",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1ae7971941804c45bed511169c556f2a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":-46,
+                  "y":254},
+                "size":{
+                  "width":217,
+                  "height":74},
+                "visible":false,
+                "rotation":"270",
+                "textRotation":"180",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 验证码",
+                      "objectsToFades":[{
+                          "objectPath":["7c117bd743e341e0b80f0d13b9fca1dc"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 学习结束按钮",
+                      "objectsToFades":[{
+                          "objectPath":["d7d5fa21cc344a098e94c9d206c41acf"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/学习视频/验证码_u18.png"}},
+{
+          "id":"d7d5fa21cc344a098e94c9d206c41acf",
+          "label":"学习结束按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-132.5,
+              "y":132.5},
+            "size":{
+              "width":641,
+              "height":376},
+            "rotation":"90",
+            "textRotation":"90",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"00177cacf5174f28b96e474fea515d80",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-132.5,
+                  "y":132.5},
+                "size":{
+                  "width":641,
+                  "height":376},
+                "rotation":"90",
+                "textRotation":"90",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 确认按钮,<br>(水平线),<br>确认按钮",
+                      "objectsToFades":[{
+                          "objectPath":["7e311a013eb346568059e56c3c832bcd"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["292879df53ae420c8caad8f9edb66461"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e24cc5a9c5f34bebb78a046aa27b3740"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e24cc5a9c5f34bebb78a046aa27b3740",
+          "label":"确认按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "verticalAlignment":"top",
+            "lineSpacing":"28px",
+            "paddingTop":"15",
+            "location":{
+              "x":65,
+              "y":230},
+            "size":{
+              "width":260,
+              "height":120},
+            "visible":false,
+            "rotation":"270",
+            "textRotation":"270",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE5E5E5},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1fdc94e0af5e4c08b388a97860e010df",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "verticalAlignment":"top",
+                "lineSpacing":"28px",
+                "paddingTop":"15",
+                "location":{
+                  "x":65,
+                  "y":230},
+                "size":{
+                  "width":260,
+                  "height":120},
+                "visible":false,
+                "rotation":"270",
+                "textRotation":"270",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFE5E5E5},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/学习视频/确认按钮_u22.png"}},
+{
+          "id":"7e311a013eb346568059e56c3c832bcd",
+          "label":"确认按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4D9BDA,
+              "opacity":1},
+            "location":{
+              "x":111,
+              "y":273},
+            "size":{
+              "width":241,
+              "height":35},
+            "visible":false,
+            "rotation":"270",
+            "textRotation":"270",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"8"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c14dbb2b34324e3fbe91af1c9205cb5f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "fontSize":"14px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF4D9BDA,
+                  "opacity":1},
+                "location":{
+                  "x":111,
+                  "y":273},
+                "size":{
+                  "width":241,
+                  "height":35},
+                "visible":false,
+                "rotation":"270",
+                "textRotation":"270",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"8"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 自我测试",
+                      "target":{
+                        "targetType":"page",
+                        "url":"自我测试_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/举报资料/确认按钮_u12.png"}},
+{
+          "id":"292879df53ae420c8caad8f9edb66461",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":91,
+              "y":285},
+            "size":{
+              "width":240,
+              "height":10},
+            "visible":false,
+            "rotation":"270",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE5E5E5}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/举报资料/u14_line.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7cc4039a1cef4438b402e53760502b40":{
+      "scriptId":"u0"},
+    "9a21733d46f04e3498ec2bb33ab39822":{
+      "scriptId":"u1"},
+    "3c1894251e3e4edcbb7ec22e0d365b52":{
+      "scriptId":"u2"},
+    "d3985d83e3d94ef7b65a7ad1a4a6798a":{
+      "scriptId":"u3"},
+    "bb1ab3263d9348cf9420888873ff55d5":{
+      "scriptId":"u4"},
+    "0975b834c32c45088b50983ab8c0d3da":{
+      "scriptId":"u5"},
+    "d5b5e2eb7c82409f89c1c23804eebcfa":{
+      "scriptId":"u6"},
+    "0dec44250197408db578ae76885a30f5":{
+      "scriptId":"u7"},
+    "5ce606e1c5a74f98a27cb5e4f9c446d3":{
+      "scriptId":"u8"},
+    "667108ba0aff453db90957f5cff6f6fc":{
+      "scriptId":"u9"},
+    "f33de7afe98643d9ade3c754cfd14f9e":{
+      "scriptId":"u10"},
+    "bda1dfc2d5bd46669f9ebc9dfc57333b":{
+      "scriptId":"u11"},
+    "00a13800ab264ec19bebe24d58c73751":{
+      "scriptId":"u12"},
+    "c0670105ceca44b99a0691926886128c":{
+      "scriptId":"u13"},
+    "56152dd2b330469cb0746da65c8b02ae":{
+      "scriptId":"u14"},
+    "304bd083dedb475aa2ef889e145a2f4d":{
+      "scriptId":"u15"},
+    "eb821862f02f4f2598d3310309d38d92":{
+      "scriptId":"u16"},
+    "d42e206a6b7440a4ad451c462f6f0259":{
+      "scriptId":"u17"},
+    "7c117bd743e341e0b80f0d13b9fca1dc":{
+      "scriptId":"u18"},
+    "1ae7971941804c45bed511169c556f2a":{
+      "scriptId":"u19"},
+    "d7d5fa21cc344a098e94c9d206c41acf":{
+      "scriptId":"u20"},
+    "00177cacf5174f28b96e474fea515d80":{
+      "scriptId":"u21"},
+    "e24cc5a9c5f34bebb78a046aa27b3740":{
+      "scriptId":"u22"},
+    "1fdc94e0af5e4c08b388a97860e010df":{
+      "scriptId":"u23"},
+    "7e311a013eb346568059e56c3c832bcd":{
+      "scriptId":"u24"},
+    "c14dbb2b34324e3fbe91af1c9205cb5f":{
+      "scriptId":"u25"},
+    "292879df53ae420c8caad8f9edb66461":{
+      "scriptId":"u26"}}});

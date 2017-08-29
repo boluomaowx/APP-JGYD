@@ -1,0 +1,132 @@
+﻿$axure.loadCurrentPage({
+  "url":"身体证明.html",
+  "generationDate":new Date(1503973158757.89),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"3ca62b13bfbf417ab1705cc937656321",
+    "type":"Axure:Page",
+    "name":"身体证明",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"04154e1b30bc49a18a6fd7ff9b8a3811",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":728}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fe40006e68744302a3ab4c1eb12ca417",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":728}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/身体证明/u0.png"}},
+{
+          "id":"a95ef5a8199046f298c9fd2a6bda4629",
+          "label":"模拟考试1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":646},
+            "size":{
+              "width":360,
+              "height":64},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ac4ef27fab0849a8bd39852e528b414b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":646},
+                "size":{
+                  "width":360,
+                  "height":64},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 学习视频",
+                      "target":{
+                        "targetType":"page",
+                        "url":"学习视频.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "04154e1b30bc49a18a6fd7ff9b8a3811":{
+      "scriptId":"u0"},
+    "fe40006e68744302a3ab4c1eb12ca417":{
+      "scriptId":"u1"},
+    "a95ef5a8199046f298c9fd2a6bda4629":{
+      "scriptId":"u2"},
+    "ac4ef27fab0849a8bd39852e528b414b":{
+      "scriptId":"u3"}}});

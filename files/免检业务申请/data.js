@@ -1,0 +1,538 @@
+﻿$axure.loadCurrentPage({
+  "url":"免检业务申请.html",
+  "generationDate":new Date(1503973161381.04),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"7a4d4a0f20b7459cae27eb054b74e1da",
+    "type":"Axure:Page",
+    "name":"免检业务申请",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"391d69a55961437eb124514aeab020cd",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"cfa801b75da34d96b71f4ca057e207b1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/免检业务申请/u0.jpg"}},
+{
+          "id":"4a96a876d4bc416a917c0eff0fda437e",
+          "label":"模拟考试1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":10,
+              "y":500},
+            "size":{
+              "width":360,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9f7f4f418d5a45f8b4af400c5191a119",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":10,
+                  "y":500},
+                "size":{
+                  "width":360,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 蒙版,<br>提交成功,<br>审核结果查询,<br>返回办理页,<br>(水平线),<br>(垂直线)",
+                      "objectsToFades":[{
+                          "objectPath":["a68c7772eff54cb288047a26d2bed042"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["0bca9425e5c9485f8e7a8cbfee2f4e45"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f3862ab7edf949dea9759fd939d3af50"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["940cb7e0df7c4ede86c1f2a25498f40e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["42c2a6cfe3e44e268a24c692ec17d9fa"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a12f50726c2a4827901828d730493011"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 模拟考试1,<br>(图片),<br>This,<br>返回免检",
+                      "objectsToFades":[{
+                          "objectPath":["4a96a876d4bc416a917c0eff0fda437e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["391d69a55961437eb124514aeab020cd"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["4a96a876d4bc416a917c0eff0fda437e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["69bc6eaf90c049f2b4f8c83fd9b80726"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a68c7772eff54cb288047a26d2bed042",
+          "label":"蒙版",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xC9A1A1A1},
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ecf99f295c0b41a583a462dd8445485a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xC9A1A1A1},
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/免检业务申请/蒙版_u4.png"}},
+{
+          "id":"0bca9425e5c9485f8e7a8cbfee2f4e45",
+          "label":"提交成功",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "verticalAlignment":"top",
+            "location":{
+              "x":62,
+              "y":213},
+            "size":{
+              "width":250,
+              "height":117},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFC9C9C9},
+            "cornerRadiusTopLeft":"8"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3015961a0803426fac441af4e9a81c10",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "verticalAlignment":"top",
+                "location":{
+                  "x":62,
+                  "y":213},
+                "size":{
+                  "width":250,
+                  "height":117},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFC9C9C9},
+                "cornerRadiusTopLeft":"8"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/免检业务申请/提交成功_u6.png"}},
+{
+          "id":"f3862ab7edf949dea9759fd939d3af50",
+          "label":"审核结果查询",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":62,
+              "y":295},
+            "size":{
+              "width":127,
+              "height":35},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6172d19b42a54e0cb9341cda74fdb80d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":62,
+                  "y":295},
+                "size":{
+                  "width":127,
+                  "height":35},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 审核结果查询",
+                      "target":{
+                        "targetType":"page",
+                        "url":"审核结果查询.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"940cb7e0df7c4ede86c1f2a25498f40e",
+          "label":"返回办理页",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":190,
+              "y":295},
+            "size":{
+              "width":123,
+              "height":35},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"339ee9306c92405297d1087cfda7d493",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":190,
+                  "y":295},
+                "size":{
+                  "width":123,
+                  "height":35},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 六年免检办理及预约",
+                      "target":{
+                        "targetType":"page",
+                        "url":"六年免检办理及预约.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"42c2a6cfe3e44e268a24c692ec17d9fa",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":76,
+              "y":288},
+            "size":{
+              "width":224,
+              "height":10},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE4E4E4}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/免检业务申请/u12_line.png"}},
+{
+          "id":"a12f50726c2a4827901828d730493011",
+          "label":"",
+          "type":"verticalLine",
+          "styleType":"verticalLine",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":182,
+              "y":298},
+            "size":{
+              "width":10,
+              "height":27},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFE4E4E4}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/免检业务申请/u13_line.png"}},
+{
+          "id":"69bc6eaf90c049f2b4f8c83fd9b80726",
+          "label":"返回免检",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":-2,
+              "y":3},
+            "size":{
+              "width":121,
+              "height":53},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f14682c8606749bd894736fb98860732",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":-2,
+                  "y":3},
+                "size":{
+                  "width":121,
+                  "height":53},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 填写资料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"填写资料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "391d69a55961437eb124514aeab020cd":{
+      "scriptId":"u0"},
+    "cfa801b75da34d96b71f4ca057e207b1":{
+      "scriptId":"u1"},
+    "4a96a876d4bc416a917c0eff0fda437e":{
+      "scriptId":"u2"},
+    "9f7f4f418d5a45f8b4af400c5191a119":{
+      "scriptId":"u3"},
+    "a68c7772eff54cb288047a26d2bed042":{
+      "scriptId":"u4"},
+    "ecf99f295c0b41a583a462dd8445485a":{
+      "scriptId":"u5"},
+    "0bca9425e5c9485f8e7a8cbfee2f4e45":{
+      "scriptId":"u6"},
+    "3015961a0803426fac441af4e9a81c10":{
+      "scriptId":"u7"},
+    "f3862ab7edf949dea9759fd939d3af50":{
+      "scriptId":"u8"},
+    "6172d19b42a54e0cb9341cda74fdb80d":{
+      "scriptId":"u9"},
+    "940cb7e0df7c4ede86c1f2a25498f40e":{
+      "scriptId":"u10"},
+    "339ee9306c92405297d1087cfda7d493":{
+      "scriptId":"u11"},
+    "42c2a6cfe3e44e268a24c692ec17d9fa":{
+      "scriptId":"u12"},
+    "a12f50726c2a4827901828d730493011":{
+      "scriptId":"u13"},
+    "69bc6eaf90c049f2b4f8c83fd9b80726":{
+      "scriptId":"u14"},
+    "f14682c8606749bd894736fb98860732":{
+      "scriptId":"u15"}}});

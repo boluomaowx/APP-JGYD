@@ -1,0 +1,873 @@
+﻿$axure.loadCurrentPage({
+  "url":"模拟考试.html",
+  "generationDate":new Date(1503973158028.85),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"49ccb59834b04d489c5a78836d479eb5",
+    "type":"Axure:Page",
+    "name":"模拟考试",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f5272e7b7b954091b41d9b8a32f2f821",
+          "label":"题目",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"04f7a9f783484eb5a8726d949e024495",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/模拟考试/题目_u0.png"}},
+{
+          "id":"bf934519471249b48b54b818df4f3505",
+          "label":"返回总目录",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":100,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2bfc2c30b3a049499c679ce423ed4ea3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":100,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 驾考在线学习",
+                      "target":{
+                        "targetType":"page",
+                        "url":"驾考在线学习.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1846355810bc42ae98a562064c36d0ab",
+          "label":"答题",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":10,
+              "y":280},
+            "size":{
+              "width":290,
+              "height":50},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"82b54dda1622446ba6f423ace9faddcf",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":10,
+                  "y":280},
+                "size":{
+                  "width":290,
+                  "height":50},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 答案,<br>显示数目",
+                      "objectsToFades":[{
+                          "objectPath":["2bad3b1354e24d0f92c04db8f1e0370d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ab11e67db12b4bf09d9c66cc8d9c7bab"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 题目",
+                      "objectsToFades":[{
+                          "objectPath":["f5272e7b7b954091b41d9b8a32f2f821"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2bad3b1354e24d0f92c04db8f1e0370d",
+          "label":"答案",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b702986b45204be290070eaa569c6a06",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/模拟考试/答案_u6.png"}},
+{
+          "id":"ab11e67db12b4bf09d9c66cc8d9c7bab",
+          "label":"显示数目",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":597},
+            "size":{
+              "width":380,
+              "height":53},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"41f3c857ecd04f91929ba7e519b8e60b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":597},
+                "size":{
+                  "width":380,
+                  "height":53},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 题目数目,<br>返回答案,<br>交卷",
+                      "objectsToFades":[{
+                          "objectPath":["e15f7ed3cfa34a158b8da1dff2ead74a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e0540d8b240544d8a60085f41495081a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d482a20ac4344e8cb69b5f90b8db35cf"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 显示数目,<br>答案,<br>答题,<br>题目,<br>返回总目录,<br>This",
+                      "objectsToFades":[{
+                          "objectPath":["ab11e67db12b4bf09d9c66cc8d9c7bab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2bad3b1354e24d0f92c04db8f1e0370d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1846355810bc42ae98a562064c36d0ab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f5272e7b7b954091b41d9b8a32f2f821"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bf934519471249b48b54b818df4f3505"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ab11e67db12b4bf09d9c66cc8d9c7bab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e15f7ed3cfa34a158b8da1dff2ead74a",
+          "label":"题目数目",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8be9c456fa0643eebce70acc861bfd71",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/模拟考试/题目数目_u10.png"}},
+{
+          "id":"e0540d8b240544d8a60085f41495081a",
+          "label":"返回答案",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":380,
+              "height":240},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"61a0e5e7bf3c4ea49564e746c37e4796",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":380,
+                  "height":240},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 题目数目,<br>交卷,<br>返回答案,<br>返回总目录,<br>答案,<br>题目,<br>This",
+                      "objectsToFades":[{
+                          "objectPath":["e15f7ed3cfa34a158b8da1dff2ead74a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d482a20ac4344e8cb69b5f90b8db35cf"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e0540d8b240544d8a60085f41495081a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bf934519471249b48b54b818df4f3505"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2bad3b1354e24d0f92c04db8f1e0370d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f5272e7b7b954091b41d9b8a32f2f821"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e0540d8b240544d8a60085f41495081a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 答案,<br>显示数目",
+                      "objectsToFades":[{
+                          "objectPath":["2bad3b1354e24d0f92c04db8f1e0370d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ab11e67db12b4bf09d9c66cc8d9c7bab"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d482a20ac4344e8cb69b5f90b8db35cf",
+          "label":"交卷",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":0,
+              "y":240},
+            "size":{
+              "width":120,
+              "height":40},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"117a8d068fa34c1fb56e550583854c18",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":0,
+                  "y":240},
+                "size":{
+                  "width":120,
+                  "height":40},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 真的交卷,<br>继续答题,<br>成绩合格",
+                      "objectsToFades":[{
+                          "objectPath":["f97e69e3e41f402c89f899c8491638ef"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["60a2797ceec94e259d23f729298c4e46"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1cd3a8c79e0749f08c566daa5ad2ddbd"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 This,<br>返回总目录,<br>答题,<br>答案,<br>题目,<br>显示数目,<br>题目数目,<br>返回答案,<br>交卷",
+                      "objectsToFades":[{
+                          "objectPath":["d482a20ac4344e8cb69b5f90b8db35cf"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bf934519471249b48b54b818df4f3505"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1846355810bc42ae98a562064c36d0ab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2bad3b1354e24d0f92c04db8f1e0370d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f5272e7b7b954091b41d9b8a32f2f821"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ab11e67db12b4bf09d9c66cc8d9c7bab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e15f7ed3cfa34a158b8da1dff2ead74a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e0540d8b240544d8a60085f41495081a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d482a20ac4344e8cb69b5f90b8db35cf"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1cd3a8c79e0749f08c566daa5ad2ddbd",
+          "label":"成绩合格",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3d5ca72794454a1bb8446fc41dfe5485",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/模拟考试/成绩合格_u16.png"}},
+{
+          "id":"60a2797ceec94e259d23f729298c4e46",
+          "label":"继续答题",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":55,
+              "y":380},
+            "size":{
+              "width":120,
+              "height":40},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b6cc2312bbe14b6cb68668e4488d6046",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":55,
+                  "y":380},
+                "size":{
+                  "width":120,
+                  "height":40},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 显示数目,<br>答案",
+                      "objectsToFades":[{
+                          "objectPath":["ab11e67db12b4bf09d9c66cc8d9c7bab"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["2bad3b1354e24d0f92c04db8f1e0370d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 继续答题,<br>真的交卷,<br>成绩合格,<br>返回答案,<br>交卷,<br>题目数目,<br>答题,<br>返回总目录,<br>题目,<br>This",
+                      "objectsToFades":[{
+                          "objectPath":["60a2797ceec94e259d23f729298c4e46"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f97e69e3e41f402c89f899c8491638ef"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1cd3a8c79e0749f08c566daa5ad2ddbd"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e0540d8b240544d8a60085f41495081a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d482a20ac4344e8cb69b5f90b8db35cf"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e15f7ed3cfa34a158b8da1dff2ead74a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["1846355810bc42ae98a562064c36d0ab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bf934519471249b48b54b818df4f3505"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f5272e7b7b954091b41d9b8a32f2f821"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["60a2797ceec94e259d23f729298c4e46"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f97e69e3e41f402c89f899c8491638ef",
+          "label":"真的交卷",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":205,
+              "y":380},
+            "size":{
+              "width":120,
+              "height":40},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"75ae1e86e9b14c1e9eb0f61f9a14fc78",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":205,
+                  "y":380},
+                "size":{
+                  "width":120,
+                  "height":40},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 考试成绩",
+                      "target":{
+                        "targetType":"page",
+                        "url":"考试成绩.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f5272e7b7b954091b41d9b8a32f2f821":{
+      "scriptId":"u0"},
+    "04f7a9f783484eb5a8726d949e024495":{
+      "scriptId":"u1"},
+    "bf934519471249b48b54b818df4f3505":{
+      "scriptId":"u2"},
+    "2bfc2c30b3a049499c679ce423ed4ea3":{
+      "scriptId":"u3"},
+    "1846355810bc42ae98a562064c36d0ab":{
+      "scriptId":"u4"},
+    "82b54dda1622446ba6f423ace9faddcf":{
+      "scriptId":"u5"},
+    "2bad3b1354e24d0f92c04db8f1e0370d":{
+      "scriptId":"u6"},
+    "b702986b45204be290070eaa569c6a06":{
+      "scriptId":"u7"},
+    "ab11e67db12b4bf09d9c66cc8d9c7bab":{
+      "scriptId":"u8"},
+    "41f3c857ecd04f91929ba7e519b8e60b":{
+      "scriptId":"u9"},
+    "e15f7ed3cfa34a158b8da1dff2ead74a":{
+      "scriptId":"u10"},
+    "8be9c456fa0643eebce70acc861bfd71":{
+      "scriptId":"u11"},
+    "e0540d8b240544d8a60085f41495081a":{
+      "scriptId":"u12"},
+    "61a0e5e7bf3c4ea49564e746c37e4796":{
+      "scriptId":"u13"},
+    "d482a20ac4344e8cb69b5f90b8db35cf":{
+      "scriptId":"u14"},
+    "117a8d068fa34c1fb56e550583854c18":{
+      "scriptId":"u15"},
+    "1cd3a8c79e0749f08c566daa5ad2ddbd":{
+      "scriptId":"u16"},
+    "3d5ca72794454a1bb8446fc41dfe5485":{
+      "scriptId":"u17"},
+    "60a2797ceec94e259d23f729298c4e46":{
+      "scriptId":"u18"},
+    "b6cc2312bbe14b6cb68668e4488d6046":{
+      "scriptId":"u19"},
+    "f97e69e3e41f402c89f899c8491638ef":{
+      "scriptId":"u20"},
+    "75ae1e86e9b14c1e9eb0f61f9a14fc78":{
+      "scriptId":"u21"}}});
