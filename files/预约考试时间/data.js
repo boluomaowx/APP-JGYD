@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"预约考试时间.html",
-  "generationDate":new Date(1503973160298.98),
+  "generationDate":new Date(1503998489682.37),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -59,60 +59,6 @@
 }}],
           "images":{
             "normal~":"images/预约考试时间/u0.png"}},
-{
-          "id":"4cff309501a54b319db9371e39214f67",
-          "label":"模拟考试1",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "fill":{
-              "fillType":"solid",
-              "color":0xFFFFFF},
-            "size":{
-              "width":130,
-              "height":50},
-            "borderFill":{
-              "fillType":"solid",
-              "color":0xFFFFFF}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"834a817df6474b02962cdf965fe23c3e",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "size":{
-                  "width":130,
-                  "height":50},
-                "borderFill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF}},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"用例 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"在 当前窗口 打开 满分学习的副本",
-                      "target":{
-                        "targetType":"page",
-                        "url":"满分学习的副本.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
 {
           "id":"b098195a91bd48bcbc70a7ea0a21288f",
           "label":"模拟考试1",
@@ -191,15 +137,9 @@
                               "showType":"none"}}}]},
 {
                       "action":"fadeWidget",
-                      "description":"隐藏 (图片),<br>模拟考试1,<br>模拟考试1",
+                      "description":"隐藏 (图片),<br>模拟考试1",
                       "objectsToFades":[{
                           "objectPath":["ab394a1e0e4a4ec493e913e89d3a564d"],
-                          "fadeInfo":{
-                            "fadeType":"hide",
-                            "options":{
-                              "showType":"none"}}},
-{
-                          "objectPath":["4cff309501a54b319db9371e39214f67"],
                           "fadeInfo":{
                             "fadeType":"hide",
                             "options":{
@@ -423,25 +363,21 @@
       "scriptId":"u0"},
     "05773259089249c1bd40734e2bb5be56":{
       "scriptId":"u1"},
-    "4cff309501a54b319db9371e39214f67":{
-      "scriptId":"u2"},
-    "834a817df6474b02962cdf965fe23c3e":{
-      "scriptId":"u3"},
     "b098195a91bd48bcbc70a7ea0a21288f":{
-      "scriptId":"u4"},
+      "scriptId":"u2"},
     "40bebd22fad444c78f6ddecdd644928c":{
-      "scriptId":"u5"},
+      "scriptId":"u3"},
     "ca8d8126ae954ef6b0f9cb8312bbea70":{
-      "scriptId":"u6"},
+      "scriptId":"u4"},
     "0c398b6ab8564e50b201b9945dd06948":{
-      "scriptId":"u7"},
+      "scriptId":"u5"},
     "f37ce8e95b434d68825d40c5a01f5e37":{
-      "scriptId":"u8"},
+      "scriptId":"u6"},
     "de6d0c1f9e204346b5b3b351f8e273a3":{
-      "scriptId":"u9"},
+      "scriptId":"u7"},
     "2a453618fe794cc9bf003034281ad9dc":{
-      "scriptId":"u10"},
+      "scriptId":"u8"},
     "b69c60c234de4906824ebdd938f22407":{
-      "scriptId":"u11"},
+      "scriptId":"u9"},
     "6964845d5fe14a4e8f64bd0fa116fcb1":{
-      "scriptId":"u12"}}});
+      "scriptId":"u10"}}});

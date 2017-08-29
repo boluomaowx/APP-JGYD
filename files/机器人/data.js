@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"机器人.html",
-  "generationDate":new Date(1503973155846.73),
+  "generationDate":new Date(1503998486540.19),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

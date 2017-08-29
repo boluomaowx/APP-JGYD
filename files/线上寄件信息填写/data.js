@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"线上寄件信息填写.html",
-  "generationDate":new Date(1503973161576.06),
+  "generationDate":new Date(1503998490327.4),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

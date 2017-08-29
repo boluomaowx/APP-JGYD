@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"举报资料.html",
-  "generationDate":new Date(1503973156507.77),
+  "generationDate":new Date(1503998487036.22),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -445,10 +445,10 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"linkWindow",
-                      "description":"在 当前窗口 打开 举报成功详情",
+                      "description":"在 当前窗口 打开 举报审核详情",
                       "target":{
                         "targetType":"page",
-                        "url":"举报成功详情.html",
+                        "url":"举报审核详情.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true,

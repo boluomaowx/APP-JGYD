@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"历史成绩.html",
-  "generationDate":new Date(1503973158376.87),
+  "generationDate":new Date(1503998488514.3),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

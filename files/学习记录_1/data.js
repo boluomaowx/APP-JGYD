@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"学习记录_1.html",
-  "generationDate":new Date(1503973160391.99),
+  "generationDate":new Date(1503998489712.37),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

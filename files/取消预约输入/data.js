@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"取消预约输入.html",
-  "generationDate":new Date(1503973161960.08),
+  "generationDate":new Date(1503998490501.41),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

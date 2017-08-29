@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"个人中心.html",
-  "generationDate":new Date(1503973155426.7),
+  "generationDate":new Date(1503998486143.17),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -111,21 +111,6 @@
                   "description":"用例 1",
                   "isNewIfGroup":false,
                   "actions":[{
-                      "action":"setFunction",
-                      "description":"设置 值于 mianfenquan = &quot;1&quot;",
-                      "expr":{
-                        "exprType":"block",
-                        "subExprs":[{
-                            "exprType":"fcall",
-                            "functionName":"SetGlobalVariableValue",
-                            "arguments":[{
-                                "exprType":"globalVariableLiteral",
-                                "variableName":"mianfenquan"},
-{
-                                "exprType":"stringLiteral",
-                                "value":"1",
-                                "stos":[]}]}]}},
-{
                       "action":"linkWindow",
                       "description":"在 当前窗口 打开 我的免分券",
                       "target":{
@@ -252,26 +237,11 @@
                   "description":"用例 1",
                   "isNewIfGroup":false,
                   "actions":[{
-                      "action":"setFunction",
-                      "description":"设置 值于 yiche = &quot;1&quot;",
-                      "expr":{
-                        "exprType":"block",
-                        "subExprs":[{
-                            "exprType":"fcall",
-                            "functionName":"SetGlobalVariableValue",
-                            "arguments":[{
-                                "exprType":"globalVariableLiteral",
-                                "variableName":"yiche"},
-{
-                                "exprType":"stringLiteral",
-                                "value":"1",
-                                "stos":[]}]}]}},
-{
                       "action":"linkWindow",
-                      "description":"在 当前窗口 打开 自助移车",
+                      "description":"在 当前窗口 打开 车主二维码",
                       "target":{
                         "targetType":"page",
-                        "url":"自助移车.html",
+                        "url":"车主二维码.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true,

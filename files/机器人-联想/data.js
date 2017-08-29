@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"机器人-联想.html",
-  "generationDate":new Date(1503973156184.75),
+  "generationDate":new Date(1503998486755.2),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

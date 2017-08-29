@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"忘记密码.html",
-  "generationDate":new Date(1503973161014.02),
+  "generationDate":new Date(1503998490045.39),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

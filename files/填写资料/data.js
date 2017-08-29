@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"填写资料.html",
-  "generationDate":new Date(1503973161165.03),
+  "generationDate":new Date(1503998490135.39),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

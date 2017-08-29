@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"考试成绩.html",
-  "generationDate":new Date(1503973158147.86),
+  "generationDate":new Date(1503998488422.3),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -300,15 +300,20 @@
           "styleType":"buttonShape",
           "visible":true,
           "style":{
+            "fontSize":"48px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
             "fill":{
               "fillType":"solid",
               "color":0xFF1CACFA},
             "location":{
-              "x":157,
+              "x":140,
               "y":150},
             "size":{
-              "width":73,
-              "height":30},
+              "width":100,
+              "height":90},
             "borderFill":{
               "fillType":"solid",
               "color":0xFFFFFF}},
@@ -322,15 +327,20 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontSize":"48px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
                 "fill":{
                   "fillType":"solid",
                   "color":0xFF1CACFA},
                 "location":{
-                  "x":157,
+                  "x":140,
                   "y":150},
                 "size":{
-                  "width":73,
-                  "height":30},
+                  "width":100,
+                  "height":90},
                 "borderFill":{
                   "fillType":"solid",
                   "color":0xFFFFFF}},

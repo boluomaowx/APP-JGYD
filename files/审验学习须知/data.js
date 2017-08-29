@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"审验学习须知.html",
-  "generationDate":new Date(1503973158673.89),
+  "generationDate":new Date(1503998488691.31),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

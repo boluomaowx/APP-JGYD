@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"六年免检办理及预约.html",
-  "generationDate":new Date(1503973161096.03),
+  "generationDate":new Date(1503998490083.39),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"选择收取回执方式.html",
-  "generationDate":new Date(1503973159486.94),
+  "generationDate":new Date(1503998489236.34),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -33,47 +33,6 @@
 },
     "diagram":{
       "objects":[{
-          "id":"bfaaad2815eb4eafa0605307bafba910",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":0,
-              "y":180},
-            "size":{
-              "width":375,
-              "height":332},
-            "rotation":"0",
-            "textRotation":"0",
-            "borderWidth":"0",
-            "cornerRadiusTopLeft":"0"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"ca91bca38b244982a02a723e07cfe132",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":0,
-                  "y":180},
-                "size":{
-                  "width":375,
-                  "height":332},
-                "rotation":"0",
-                "textRotation":"0",
-                "borderWidth":"0",
-                "cornerRadiusTopLeft":"0"},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"images/选择收取回执方式/u0.png"}},
-{
           "id":"c14306a370a9466abff7c98d92628f1a",
           "label":"窗口",
           "type":"imageBox",
@@ -105,10 +64,10 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/选择收取回执方式/窗口_u2.png"}},
+            "normal~":"images/选择收取回执方式/窗口_u0.png"}},
 {
-          "id":"c674300220e140c38462315a59a26ce8",
-          "label":"选择2",
+          "id":"ff15da24feb74c10b2d1d4a8e8a960ec",
+          "label":"提交1",
           "type":"buttonShape",
           "styleType":"buttonShape",
           "visible":true,
@@ -117,8 +76,8 @@
               "fillType":"solid",
               "color":0xFFFFFF},
             "location":{
-              "x":-10,
-              "y":186},
+              "x":0,
+              "y":320},
             "size":{
               "width":380,
               "height":50},
@@ -128,7 +87,7 @@
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"491ae1afaef2410583713fe2a88e700c",
+              "id":"c0ef54d17a044c01aee5afbf1b7fa1a6",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
@@ -139,8 +98,8 @@
                   "fillType":"solid",
                   "color":0xFFFFFF},
                 "location":{
-                  "x":-10,
-                  "y":186},
+                  "x":0,
+                  "y":320},
                 "size":{
                   "width":380,
                   "height":50},
@@ -157,44 +116,29 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"fadeWidget",
-                      "description":"显示 提交1,<br>选择1,<br>窗口",
+                      "description":"显示 确认按钮,<br>确认按钮,<br>蒙版,<br>(水平线)",
                       "objectsToFades":[{
-                          "objectPath":["ff15da24feb74c10b2d1d4a8e8a960ec"],
+                          "objectPath":["929db0978f7b46e493c0af81effeab29"],
                           "fadeInfo":{
                             "fadeType":"show",
                             "options":{
                               "showType":"none"}}},
 {
-                          "objectPath":["a1b040adccdf49c5b57c36c5c79e77f5"],
+                          "objectPath":["56a45751f67d44899818d4530893acc5"],
                           "fadeInfo":{
                             "fadeType":"show",
                             "options":{
                               "showType":"none"}}},
 {
-                          "objectPath":["c14306a370a9466abff7c98d92628f1a"],
+                          "objectPath":["768713fc5248418c89572da05aeedb27"],
                           "fadeInfo":{
                             "fadeType":"show",
                             "options":{
-                              "showType":"none"}}}]},
-{
-                      "action":"fadeWidget",
-                      "description":"隐藏 (图片),<br>选择2,<br>提交2",
-                      "objectsToFades":[{
-                          "objectPath":["bfaaad2815eb4eafa0605307bafba910"],
-                          "fadeInfo":{
-                            "fadeType":"hide",
-                            "options":{
                               "showType":"none"}}},
 {
-                          "objectPath":["c674300220e140c38462315a59a26ce8"],
+                          "objectPath":["82ca0e7d74004337b312e4ff1f0eeeb4"],
                           "fadeInfo":{
-                            "fadeType":"hide",
-                            "options":{
-                              "showType":"none"}}},
-{
-                          "objectPath":["c25c55d60d6b409bad2c0f9256b36ed5"],
-                          "fadeInfo":{
-                            "fadeType":"hide",
+                            "fadeType":"show",
                             "options":{
                               "showType":"none"}}}]}]}]}},
           "tabbable":true,
@@ -272,14 +216,8 @@
                               "showType":"none"}}}]},
 {
                       "action":"fadeWidget",
-                      "description":"隐藏 窗口,<br>选择1,<br>提交1",
+                      "description":"隐藏 选择1,<br>提交1",
                       "objectsToFades":[{
-                          "objectPath":["c14306a370a9466abff7c98d92628f1a"],
-                          "fadeInfo":{
-                            "fadeType":"hide",
-                            "options":{
-                              "showType":"none"}}},
-{
                           "objectPath":["a1b040adccdf49c5b57c36c5c79e77f5"],
                           "fadeInfo":{
                             "fadeType":"hide",
@@ -295,43 +233,88 @@
           "images":{
             "normal~":"resources/images/transparent.gif"}},
 {
-          "id":"c25c55d60d6b409bad2c0f9256b36ed5",
-          "label":"提交2",
+          "id":"bfaaad2815eb4eafa0605307bafba910",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":0,
+              "y":171},
+            "size":{
+              "width":375,
+              "height":332},
+            "visible":false,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ca91bca38b244982a02a723e07cfe132",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":171},
+                "size":{
+                  "width":375,
+                  "height":332},
+                "visible":false,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择收取回执方式/u6.png"}},
+{
+          "id":"c674300220e140c38462315a59a26ce8",
+          "label":"选择2",
           "type":"buttonShape",
           "styleType":"buttonShape",
-          "visible":true,
+          "visible":false,
           "style":{
             "fill":{
               "fillType":"solid",
               "color":0xFFFFFF},
             "location":{
-              "x":-15,
-              "y":416},
+              "x":5,
+              "y":177},
             "size":{
               "width":380,
               "height":50},
+            "visible":false,
             "borderFill":{
               "fillType":"solid",
               "color":0xFFFFFF}},
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"b415205ef0b04dd888f5cfe60955d44e",
+              "id":"491ae1afaef2410583713fe2a88e700c",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
               "styleType":"paragraph",
-              "visible":true,
+              "visible":false,
               "style":{
                 "fill":{
                   "fillType":"solid",
                   "color":0xFFFFFF},
                 "location":{
-                  "x":-15,
-                  "y":416},
+                  "x":5,
+                  "y":177},
                 "size":{
                   "width":380,
                   "height":50},
+                "visible":false,
                 "borderFill":{
                   "fillType":"solid",
                   "color":0xFFFFFF}},
@@ -345,72 +328,89 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"fadeWidget",
-                      "description":"显示 确认按钮,<br>确认按钮,<br>蒙版,<br>(水平线)",
+                      "description":"显示 提交1,<br>选择1,<br>窗口",
                       "objectsToFades":[{
-                          "objectPath":["929db0978f7b46e493c0af81effeab29"],
+                          "objectPath":["ff15da24feb74c10b2d1d4a8e8a960ec"],
                           "fadeInfo":{
                             "fadeType":"show",
                             "options":{
                               "showType":"none"}}},
 {
-                          "objectPath":["56a45751f67d44899818d4530893acc5"],
+                          "objectPath":["a1b040adccdf49c5b57c36c5c79e77f5"],
                           "fadeInfo":{
                             "fadeType":"show",
                             "options":{
                               "showType":"none"}}},
 {
-                          "objectPath":["768713fc5248418c89572da05aeedb27"],
+                          "objectPath":["c14306a370a9466abff7c98d92628f1a"],
                           "fadeInfo":{
                             "fadeType":"show",
                             "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 选择2,<br>提交2,<br>(图片)",
+                      "objectsToFades":[{
+                          "objectPath":["c674300220e140c38462315a59a26ce8"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
                               "showType":"none"}}},
 {
-                          "objectPath":["82ca0e7d74004337b312e4ff1f0eeeb4"],
+                          "objectPath":["c25c55d60d6b409bad2c0f9256b36ed5"],
                           "fadeInfo":{
-                            "fadeType":"show",
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bfaaad2815eb4eafa0605307bafba910"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
                             "options":{
                               "showType":"none"}}}]}]}]}},
           "tabbable":true,
           "images":{
             "normal~":"resources/images/transparent.gif"}},
 {
-          "id":"ff15da24feb74c10b2d1d4a8e8a960ec",
-          "label":"提交1",
+          "id":"c25c55d60d6b409bad2c0f9256b36ed5",
+          "label":"提交2",
           "type":"buttonShape",
           "styleType":"buttonShape",
-          "visible":true,
+          "visible":false,
           "style":{
             "fill":{
               "fillType":"solid",
               "color":0xFFFFFF},
             "location":{
               "x":0,
-              "y":320},
+              "y":407},
             "size":{
               "width":380,
               "height":50},
+            "visible":false,
             "borderFill":{
               "fillType":"solid",
               "color":0xFFFFFF}},
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"c0ef54d17a044c01aee5afbf1b7fa1a6",
+              "id":"b415205ef0b04dd888f5cfe60955d44e",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
               "styleType":"paragraph",
-              "visible":true,
+              "visible":false,
               "style":{
                 "fill":{
                   "fillType":"solid",
                   "color":0xFFFFFF},
                 "location":{
                   "x":0,
-                  "y":320},
+                  "y":407},
                 "size":{
                   "width":380,
                   "height":50},
+                "visible":false,
                 "borderFill":{
                   "fillType":"solid",
                   "color":0xFFFFFF}},
@@ -658,29 +658,29 @@
   "masters":{
 },
   "objectPaths":{
-    "bfaaad2815eb4eafa0605307bafba910":{
-      "scriptId":"u0"},
-    "ca91bca38b244982a02a723e07cfe132":{
-      "scriptId":"u1"},
     "c14306a370a9466abff7c98d92628f1a":{
-      "scriptId":"u2"},
+      "scriptId":"u0"},
     "77d59d343a1c4d74bdefd45ea2714cfc":{
-      "scriptId":"u3"},
-    "c674300220e140c38462315a59a26ce8":{
-      "scriptId":"u4"},
-    "491ae1afaef2410583713fe2a88e700c":{
-      "scriptId":"u5"},
-    "a1b040adccdf49c5b57c36c5c79e77f5":{
-      "scriptId":"u6"},
-    "19976e6a50004eeea403dadbf7117b19":{
-      "scriptId":"u7"},
-    "c25c55d60d6b409bad2c0f9256b36ed5":{
-      "scriptId":"u8"},
-    "b415205ef0b04dd888f5cfe60955d44e":{
-      "scriptId":"u9"},
+      "scriptId":"u1"},
     "ff15da24feb74c10b2d1d4a8e8a960ec":{
-      "scriptId":"u10"},
+      "scriptId":"u2"},
     "c0ef54d17a044c01aee5afbf1b7fa1a6":{
+      "scriptId":"u3"},
+    "a1b040adccdf49c5b57c36c5c79e77f5":{
+      "scriptId":"u4"},
+    "19976e6a50004eeea403dadbf7117b19":{
+      "scriptId":"u5"},
+    "bfaaad2815eb4eafa0605307bafba910":{
+      "scriptId":"u6"},
+    "ca91bca38b244982a02a723e07cfe132":{
+      "scriptId":"u7"},
+    "c674300220e140c38462315a59a26ce8":{
+      "scriptId":"u8"},
+    "491ae1afaef2410583713fe2a88e700c":{
+      "scriptId":"u9"},
+    "c25c55d60d6b409bad2c0f9256b36ed5":{
+      "scriptId":"u10"},
+    "b415205ef0b04dd888f5cfe60955d44e":{
       "scriptId":"u11"},
     "768713fc5248418c89572da05aeedb27":{
       "scriptId":"u12"},

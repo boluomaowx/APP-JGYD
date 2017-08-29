@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"人工服务.html",
-  "generationDate":new Date(1503973156054.74),
+  "generationDate":new Date(1503998486641.19),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

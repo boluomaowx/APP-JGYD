@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"免检业务申请.html",
-  "generationDate":new Date(1503973161381.04),
+  "generationDate":new Date(1503998490217.4),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -157,15 +157,9 @@
                               "showType":"none"}}}]},
 {
                       "action":"fadeWidget",
-                      "description":"隐藏 模拟考试1,<br>(图片),<br>This,<br>返回免检",
+                      "description":"隐藏 模拟考试1,<br>This,<br>返回免检",
                       "objectsToFades":[{
                           "objectPath":["4a96a876d4bc416a917c0eff0fda437e"],
-                          "fadeInfo":{
-                            "fadeType":"hide",
-                            "options":{
-                              "showType":"none"}}},
-{
-                          "objectPath":["391d69a55961437eb124514aeab020cd"],
                           "fadeInfo":{
                             "fadeType":"hide",
                             "options":{
@@ -194,7 +188,7 @@
           "style":{
             "fill":{
               "fillType":"solid",
-              "color":0xC9A1A1A1},
+              "color":0xAD000000},
             "size":{
               "width":375,
               "height":647},
@@ -211,7 +205,7 @@
               "style":{
                 "fill":{
                   "fillType":"solid",
-                  "color":0xC9A1A1A1},
+                  "color":0xAD000000},
                 "size":{
                   "width":375,
                   "height":647},

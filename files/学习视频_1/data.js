@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"学习视频_1.html",
-  "generationDate":new Date(1503973159928.96),
+  "generationDate":new Date(1503998489480.36),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -174,7 +174,7 @@
                               "showType":"none"}}}]}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/自助移车/关闭按钮_u11.png"}},
+            "normal~":"images/自助移车/关闭按钮_u13.png"}},
 {
           "id":"bb1ab3263d9348cf9420888873ff55d5",
           "label":"提示",
@@ -641,7 +641,7 @@
           "label":"学习结束按钮",
           "type":"buttonShape",
           "styleType":"buttonShape",
-          "visible":true,
+          "visible":false,
           "style":{
             "fill":{
               "fillType":"solid",
@@ -652,6 +652,7 @@
             "size":{
               "width":641,
               "height":376},
+            "visible":false,
             "rotation":"90",
             "textRotation":"90",
             "borderFill":{
@@ -665,7 +666,7 @@
               "isContained":true,
               "type":"richTextPanel",
               "styleType":"paragraph",
-              "visible":true,
+              "visible":false,
               "style":{
                 "fill":{
                   "fillType":"solid",
@@ -676,6 +677,7 @@
                 "size":{
                   "width":641,
                   "height":376},
+                "visible":false,
                 "rotation":"90",
                 "textRotation":"90",
                 "borderFill":{

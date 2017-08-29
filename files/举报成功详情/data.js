@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"举报成功详情.html",
-  "generationDate":new Date(1503973156667.78),
+  "generationDate":new Date(1503998487256.23),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -183,26 +183,11 @@
                   "description":"用例 1",
                   "isNewIfGroup":false,
                   "actions":[{
-                      "action":"setFunction",
-                      "description":"设置 值于 mianfenquan = &quot;2&quot;",
-                      "expr":{
-                        "exprType":"block",
-                        "subExprs":[{
-                            "exprType":"fcall",
-                            "functionName":"SetGlobalVariableValue",
-                            "arguments":[{
-                                "exprType":"globalVariableLiteral",
-                                "variableName":"mianfenquan"},
-{
-                                "exprType":"stringLiteral",
-                                "value":"2",
-                                "stos":[]}]}]}},
-{
                       "action":"linkWindow",
-                      "description":"在 当前窗口 打开 我的免分券",
+                      "description":"在 当前窗口 打开 我的免分券的副本",
                       "target":{
                         "targetType":"page",
-                        "url":"我的免分券.html",
+                        "url":"我的免分券的副本.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true,

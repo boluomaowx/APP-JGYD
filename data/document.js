@@ -23,7 +23,11 @@
             "children":[{
                 "pageName":"我的免分券",
                 "type":"Wireframe",
-                "url":"我的免分券.html"}]},
+                "url":"我的免分券.html"},
+{
+                "pageName":"车主二维码",
+                "type":"Wireframe",
+                "url":"车主二维码.html"}]},
 {
             "pageName":"机动车业务",
             "type":"Wireframe",
@@ -60,6 +64,10 @@
                 "pageName":"举报成功详情",
                 "type":"Wireframe",
                 "url":"举报成功详情.html"},
+{
+                "pageName":"我的免分券的副本",
+                "type":"Wireframe",
+                "url":"我的免分券的副本.html"},
 {
                 "pageName":"举报成功详情已领取",
                 "type":"Wireframe",

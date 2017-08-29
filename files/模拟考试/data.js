@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"模拟考试.html",
-  "generationDate":new Date(1503973158028.85),
+  "generationDate":new Date(1503998488356.29),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -60,60 +60,6 @@
           "images":{
             "normal~":"images/模拟考试/题目_u0.png"}},
 {
-          "id":"bf934519471249b48b54b818df4f3505",
-          "label":"返回总目录",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "fill":{
-              "fillType":"solid",
-              "color":0xFFFFFF},
-            "size":{
-              "width":100,
-              "height":40},
-            "borderFill":{
-              "fillType":"solid",
-              "color":0xFFFFFF}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"2bfc2c30b3a049499c679ce423ed4ea3",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "size":{
-                  "width":100,
-                  "height":40},
-                "borderFill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF}},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"返回在线",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"在 当前窗口 打开 驾考在线学习",
-                      "target":{
-                        "targetType":"page",
-                        "url":"驾考在线学习.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
           "id":"1846355810bc42ae98a562064c36d0ab",
           "label":"答题",
           "type":"buttonShape",
@@ -127,7 +73,7 @@
               "x":10,
               "y":280},
             "size":{
-              "width":290,
+              "width":360,
               "height":50},
             "borderFill":{
               "fillType":"solid",
@@ -149,7 +95,7 @@
                   "x":10,
                   "y":280},
                 "size":{
-                  "width":290,
+                  "width":360,
                   "height":50},
                 "borderFill":{
                   "fillType":"solid",
@@ -217,7 +163,61 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/模拟考试/答案_u6.png"}},
+            "normal~":"images/模拟考试/答案_u4.png"}},
+{
+          "id":"bf934519471249b48b54b818df4f3505",
+          "label":"返回总目录",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":100,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2bfc2c30b3a049499c679ce423ed4ea3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":100,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回在线",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 驾考在线学习",
+                      "target":{
+                        "targetType":"page",
+                        "url":"驾考在线学习.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
 {
           "id":"ab11e67db12b4bf09d9c66cc8d9c7bab",
           "label":"显示数目",
@@ -629,7 +629,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/模拟考试/成绩合格_u16.png"}},
+            "normal~":"images/模拟考试/成绩合格_u16.jpg"}},
 {
           "id":"60a2797ceec94e259d23f729298c4e46",
           "label":"继续答题",
@@ -831,17 +831,17 @@
       "scriptId":"u0"},
     "04f7a9f783484eb5a8726d949e024495":{
       "scriptId":"u1"},
-    "bf934519471249b48b54b818df4f3505":{
-      "scriptId":"u2"},
-    "2bfc2c30b3a049499c679ce423ed4ea3":{
-      "scriptId":"u3"},
     "1846355810bc42ae98a562064c36d0ab":{
-      "scriptId":"u4"},
+      "scriptId":"u2"},
     "82b54dda1622446ba6f423ace9faddcf":{
-      "scriptId":"u5"},
+      "scriptId":"u3"},
     "2bad3b1354e24d0f92c04db8f1e0370d":{
-      "scriptId":"u6"},
+      "scriptId":"u4"},
     "b702986b45204be290070eaa569c6a06":{
+      "scriptId":"u5"},
+    "bf934519471249b48b54b818df4f3505":{
+      "scriptId":"u6"},
+    "2bfc2c30b3a049499c679ce423ed4ea3":{
       "scriptId":"u7"},
     "ab11e67db12b4bf09d9c66cc8d9c7bab":{
       "scriptId":"u8"},

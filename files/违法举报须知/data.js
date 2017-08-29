@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"违法举报须知.html",
-  "generationDate":new Date(1503973156334.76),
+  "generationDate":new Date(1503998486826.2),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

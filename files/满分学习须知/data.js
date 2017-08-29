@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"满分学习须知.html",
-  "generationDate":new Date(1503973159706.95),
+  "generationDate":new Date(1503998489352.35),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

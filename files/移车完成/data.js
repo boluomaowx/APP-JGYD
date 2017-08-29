@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"移车完成.html",
-  "generationDate":new Date(1503973157404.82),
+  "generationDate":new Date(1503998487941.27),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -248,8 +248,8 @@
               "color":0xFFF6F6F6},
             "paddingTop":"15",
             "location":{
-              "x":34,
-              "y":270},
+              "x":34.5,
+              "y":250},
             "size":{
               "width":306,
               "height":130},
@@ -275,8 +275,8 @@
                   "color":0xFFF6F6F6},
                 "paddingTop":"15",
                 "location":{
-                  "x":34,
-                  "y":270},
+                  "x":34.5,
+                  "y":250},
                 "size":{
                   "width":306,
                   "height":130},
@@ -296,11 +296,11 @@
           "visible":true,
           "style":{
             "location":{
-              "x":105,
-              "y":90},
+              "x":135,
+              "y":120},
             "size":{
-              "width":170,
-              "height":170}},
+              "width":110,
+              "height":110}},
           "adaptiveStyles":{
 },
           "objects":[{
@@ -312,11 +312,11 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":105,
-                  "y":90},
+                  "x":135,
+                  "y":120},
                 "size":{
-                  "width":170,
-                  "height":170}},
+                  "width":110,
+                  "height":110}},
               "adaptiveStyles":{
 }}],
           "images":{

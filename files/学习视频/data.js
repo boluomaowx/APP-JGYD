@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"学习视频.html",
-  "generationDate":new Date(1503973159090.91),
+  "generationDate":new Date(1503998488912.32),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -174,7 +174,7 @@
                               "showType":"none"}}}]}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/自助移车/关闭按钮_u11.png"}},
+            "normal~":"images/自助移车/关闭按钮_u13.png"}},
 {
           "id":"4bd1a7abd82e439ca87efbda9bc26ab1",
           "label":"提示",

@@ -124,23 +124,24 @@
 }
 #u10 {
   position:absolute;
-  left:157px;
+  left:140px;
   top:150px;
-  width:73px;
-  height:30px;
+  width:100px;
+  height:90px;
+  font-size:48px;
+  color:#FFFFFF;
 }
 #u10_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:73px;
-  height:30px;
+  width:100px;
+  height:90px;
 }
 #u11 {
   position:absolute;
   left:2px;
-  top:7px;
-  width:69px;
-  visibility:hidden;
+  top:18px;
+  width:96px;
   word-wrap:break-word;
 }

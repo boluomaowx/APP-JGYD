@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"查看试卷.html",
-  "generationDate":new Date(1503973158228.86),
+  "generationDate":new Date(1503998488467.3),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

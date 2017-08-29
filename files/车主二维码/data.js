@@ -1,0 +1,181 @@
+﻿$axure.loadCurrentPage({
+  "url":"车主二维码.html",
+  "generationDate":new Date(1503998486251.17),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"33a628240304412bacbf60f7522d9fd5",
+    "type":"Axure:Page",
+    "name":"车主二维码",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"dba53f26734a4d7887cbe40c42ec4c83",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":647}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2aa192f9bdcf4438adf753b1aea76fe6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":647}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/车主二维码/u0.png"}},
+{
+          "id":"2404133e75a84691bfb61c0125c7c889",
+          "label":"移车卡生成页面",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":43},
+            "size":{
+              "width":375,
+              "height":603},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9df272ae67ec41f8be08db242f0700d3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":43},
+                "size":{
+                  "width":375,
+                  "height":603},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/车主二维码/移车卡生成页面_u2.png"}},
+{
+          "id":"cb1ef495f88c4e21a81a71e471263432",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x333333,
+              "opacity":0},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":100,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c13761e9351e4ffa8b8e52c6cc731b08",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0x333333,
+                  "opacity":0},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":100,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"个人中心",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 个人中心",
+                      "target":{
+                        "targetType":"page",
+                        "url":"个人中心.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "dba53f26734a4d7887cbe40c42ec4c83":{
+      "scriptId":"u0"},
+    "2aa192f9bdcf4438adf753b1aea76fe6":{
+      "scriptId":"u1"},
+    "2404133e75a84691bfb61c0125c7c889":{
+      "scriptId":"u2"},
+    "9df272ae67ec41f8be08db242f0700d3":{
+      "scriptId":"u3"},
+    "cb1ef495f88c4e21a81a71e471263432":{
+      "scriptId":"u4"},
+    "c13761e9351e4ffa8b8e52c6cc731b08":{
+      "scriptId":"u5"}}});

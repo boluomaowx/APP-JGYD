@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"自我测试.html",
-  "generationDate":new Date(1503973159291.93),
+  "generationDate":new Date(1503998489071.33),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -154,7 +154,7 @@
                               "showType":"none"}}}]}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/模拟考试/答案_u6.png"}},
+            "normal~":"images/模拟考试/答案_u4.png"}},
 {
           "id":"2b836a814bb24e72b73ecea9c1aa2b04",
           "label":"返回上页2",
@@ -621,6 +621,21 @@
                   "color":0xFFFFFF}},
               "adaptiveStyles":{
 }}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择收取回执方式",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择收取回执方式.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
           "images":{
             "normal~":"images/自我测试/u16.png"}},
 {

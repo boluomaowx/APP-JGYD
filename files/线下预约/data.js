@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"线下预约.html",
-  "generationDate":new Date(1503973161895.07),
+  "generationDate":new Date(1503998490472.41),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -306,7 +306,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/免检业务申请/蒙版_u4.png"}},
+            "normal~":"images/线下预约/蒙版_u8.png"}},
 {
           "id":"73338d223678428aa831b4893b7e4d5c",
           "label":"提交成功",

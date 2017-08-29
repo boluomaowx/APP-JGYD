@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"历史举报.html",
-  "generationDate":new Date(1503973156597.77),
+  "generationDate":new Date(1503998487170.22),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

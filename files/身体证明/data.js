@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"身体证明.html",
-  "generationDate":new Date(1503973158757.89),
+  "generationDate":new Date(1503998488738.31),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",

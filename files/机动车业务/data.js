@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"机动车业务.html",
-  "generationDate":new Date(1503973155515.71),
+  "generationDate":new Date(1503998486266.17),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -58,7 +58,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/首页/u9.png"}},
+            "normal~":"images/首页/1_u9.png"}},
 {
           "id":"c56d71ba8abb493c9cb3f26a27dbf353",
           "label":"",

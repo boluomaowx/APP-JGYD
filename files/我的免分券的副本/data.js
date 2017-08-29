@@ -1,0 +1,136 @@
+﻿$axure.loadCurrentPage({
+  "url":"我的免分券的副本.html",
+  "generationDate":new Date(1503998487272.23),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"jvbao",
+"yiche",
+"mianfenquan"],
+  "page":{
+    "packageId":"a8559cfb8a98491888b8cb04a689c3ec",
+    "type":"Axure:Page",
+    "name":"我的免分券的副本",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"07088ed74f30470cbdb85943b9bf8af0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":375,
+              "height":642}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f50e5fc48df14554880d66bb978471f4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":375,
+                  "height":642}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/我的免分券/u0.png"}},
+{
+          "id":"4a7c6d1ae2bf471b90f011f96f6d267d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0x333333,
+              "opacity":0},
+            "opacity":"0",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":90,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0x797979}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3d398172b8e642a1a772317dc9a26f26",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0x333333,
+                  "opacity":0},
+                "opacity":"0",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":90,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0x797979}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 举报成功详情已领取",
+                      "target":{
+                        "targetType":"page",
+                        "url":"举报成功详情已领取.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "07088ed74f30470cbdb85943b9bf8af0":{
+      "scriptId":"u0"},
+    "f50e5fc48df14554880d66bb978471f4":{
+      "scriptId":"u1"},
+    "4a7c6d1ae2bf471b90f011f96f6d267d":{
+      "scriptId":"u2"},
+    "3d398172b8e642a1a772317dc9a26f26":{
+      "scriptId":"u3"}}});

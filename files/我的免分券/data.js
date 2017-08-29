@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"我的免分券.html",
-  "generationDate":new Date(1503973155486.71),
+  "generationDate":new Date(1503998486169.17),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
@@ -110,51 +110,14 @@
             "onClick":{
               "description":"OnClick",
               "cases":[{
-                  "description":"返回首页<br> (If 值于 mianfenquan 等于 &quot;1&quot;)",
+                  "description":"用例 1",
                   "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetGlobalVariableValue",
-                      "arguments":[{
-                          "exprType":"globalVariableLiteral",
-                          "variableName":"mianfenquan"}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"1",
-                      "stos":[]}},
                   "actions":[{
                       "action":"linkWindow",
                       "description":"在 当前窗口 打开 个人中心",
                       "target":{
                         "targetType":"page",
                         "url":"个人中心.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"返回举报详情<br> (Else If 值于 mianfenquan 等于 &quot;2&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetGlobalVariableValue",
-                      "arguments":[{
-                          "exprType":"globalVariableLiteral",
-                          "variableName":"mianfenquan"}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"2",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"在 当前窗口 打开 举报成功详情已领取",
-                      "target":{
-                        "targetType":"page",
-                        "url":"举报成功详情已领取.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true,

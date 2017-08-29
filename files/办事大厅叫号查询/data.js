@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"办事大厅叫号查询.html",
-  "generationDate":new Date(1503973157652.83),
+  "generationDate":new Date(1503998488119.28),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable",
 "jvbao",
